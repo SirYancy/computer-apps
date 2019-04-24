@@ -5,6 +5,8 @@ parent: Word Processing
 nav_order: 3
 ---
 
+# Tutorial 2 - Basic Text Editing
+
 <style>
 pre {
     overflow-x: auto;

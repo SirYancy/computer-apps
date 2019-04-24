@@ -17,8 +17,8 @@ title: Computer Applications Primer
 email: eric.kuha@lltc.edu
 description: >- # this means to ignore newlines until "baseurl:"
     A Computer Applications textbook for use by students at Leech Lake Tribal College. Or anyone else, for that matter.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/computer-apps" # the subpath of your site, e.g. /blog
+url: "https://siryancy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  SirYancy
 
 # Build settings
