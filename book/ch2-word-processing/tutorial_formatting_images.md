@@ -83,12 +83,12 @@ TUTORIAL
     It's not a bad idea when building a flyer to create the content
     first and the work on the formatting later.
 
-    ![Start with content](images/tutorial3/1.png){width="100%"}
+    ![Start with content](images/tutorial3/1.png){: width="100%"}
 
 3.  First, in the **Layout** tab, under **Margins**, change the page
     margins to *Narrow*
 
-    ![Change to Narrow Margins](images/tutorial3/2.png){width="100%"}
+    ![Change to Narrow Margins](images/tutorial3/2.png){: width="100%"}
 
     This allows you to use as much of the page as possible without
     sacrificing too much page-padding margin.
@@ -98,7 +98,7 @@ TUTORIAL
     to landscape.
 
     ![Change to Landscape
-    orientation](images/tutorial3/3.png){width="100%"}
+    orientation](images/tutorial3/3.png){: width="100%"}
 
     The default *Portrait* orientation is taller than it is wide, but
     for this flyer, we want the page wider than it is tall.
@@ -107,13 +107,13 @@ TUTORIAL
     text using the center alignment tool in the **Home** tab,
     **paragraph** group.
 
-    ![The alignment tools](images/tutorial3/4.png){width="100%"}
+    ![The alignment tools](images/tutorial3/4.png){: width="100%"}
 
 6.  Time to make the text pop. First, we'll start making it all bigger.
     Select the first line of text and increase the font size to 48 using
     the font size tool in the **Font** group.
 
-    ![The Font size tool](images/tutorial3/5.png){width="100%"}
+    ![The Font size tool](images/tutorial3/5.png){: width="100%"}
 
     Select the rest of the text and set the font size to 36.
 
@@ -124,13 +124,13 @@ TUTORIAL
     little eye-catching flair to a document. Be careful not to overuse
     it, of course, or you risk your work looking silly.
 
-    ![Text Effects Menu](images/tutorial3/6.png){width="100%"}
+    ![Text Effects Menu](images/tutorial3/6.png){: width="100%"}
 
 8.  Now, select the third and fourth lines and click on the **text
     color** tool. Choose the dark orange color, second from the bottom
     in the middle column of the theme colors pallette.
 
-    ![Font Colors Menu](images/tutorial3/7.png){width="100%"}
+    ![Font Colors Menu](images/tutorial3/7.png){: width="100%"}
 
     It is not a bad idea to get used to choosing colors from the "theme
     colors" part of the pallette, as these colors are chosen by design
@@ -142,7 +142,7 @@ TUTORIAL
     paint bucket -- and select the same dark orange color as you
     did before.
 
-    ![The Shading Menu](images/tutorial3/8.png){width="100%"}
+    ![The Shading Menu](images/tutorial3/8.png){: width="100%"}
 
     It is generally considered bad design to have dark text on a
     dark background. So, with the first paragraph still selected, under
@@ -158,7 +158,7 @@ TUTORIAL
     -   Set the width to 2&frac14;
 
         ![The Borders and Shading
-        Dialog](images/tutorial3/9.png){width="100%"}
+        Dialog](images/tutorial3/9.png){: width="100%"}
 
     -   Press **OK**.
 
@@ -168,27 +168,27 @@ TUTORIAL
     the **Clipboard** group of the **Home** tab, click on the **Format
     Painter** tool.
 
-    ![The Format Painter Tool](images/tutorial3/10.png){width="100%"}
+    ![The Format Painter Tool](images/tutorial3/10.png){: width="100%"}
 
     Finally, simply highlight the bottom line of text. All of the
     formatting from the first line should be immediately applied to the
     last line like so:
 
     ![The result of the Format Painter
-    operation](images/tutorial3/11.png){width="100%"}
+    operation](images/tutorial3/11.png){: width="100%"}
 
 1.  Let's add the image. Move the **insertion point** to the end of the
     second line. Press the **Enter** key (&crarr;) to create a new line.
     Next, in the **Insert** tab, **Illustrations** group, click the
     **Pictures** tool.
 
-    ![The Pictures Tool](images/tutorial3/12.png){width="100%"}
+    ![The Pictures Tool](images/tutorial3/12.png){: width="100%"}
 
     In the dialog that opens, navigate to the image file that you
     downloaded at the beginning of the tutorial, *possum.jpg*. Select it
     and click the **Insert** button.
 
-    ![The Insert Picture Dialog](images/tutorial3/13.png){width="100%"}
+    ![The Insert Picture Dialog](images/tutorial3/13.png){: width="100%"}
 
     The picture is very large, and will have pushed all of the other
     text onto two other pages.
@@ -204,7 +204,7 @@ TUTORIAL
     height and width of the image should be a little less than 4 inches
     by 3 inches.
 
-    ![Resizing the Image](images/tutorial3/14.png){width="100%"}
+    ![Resizing the Image](images/tutorial3/14.png){: width="100%"}
 
     Now, let's style the image. With the image selected, ensure that you
     are in the **Picture Tools/Format** tab. In the **Picture Styles**
@@ -212,7 +212,7 @@ TUTORIAL
     styles menu. Select the **Soft Edge Oval** style. Resize the image
     again if you need to. The result should look something like this:
 
-    ![Styling the Image](images/tutorial3/15.png){width="100%"}
+    ![Styling the Image](images/tutorial3/15.png){: width="100%"}
 
 3.  The last thing we will do is change the **Theme**. In the **Design**
     tab, on the far left is the **Themes** tool. Click it to open a menu
@@ -224,7 +224,7 @@ TUTORIAL
     theme fonts, you can change the entire look and feel of a document
     by simply changing its theme. Select the "*Retrospect*" theme.
 
-    ![The Themes palette.](images/tutorial3/16.png){width="100%"}
+    ![The Themes palette.](images/tutorial3/16.png){: width="100%"}
 
 4.  Finally, replace the name at the bottom with your own and adjust
     font sizes as needed to fit everything on one page. With that, the

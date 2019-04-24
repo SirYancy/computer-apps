@@ -11,5 +11,5 @@ This living text will cover the basic use of computer software. Topics will incl
 Table of Contents
 ---
 
-* [Computer Basics]({% link book/ch1-computer-basics/introduction.md %})
-* [Word Processing]({% link book/ch2-word-processing/introduction.md %})
+* [Computer Basics]({{ site.baseurl }}{% link book/ch1-computer-basics/introduction.md %})
+* [Word Processing]({{ site.baseurl }}{% link book/ch2-word-processing/introduction.md %})
