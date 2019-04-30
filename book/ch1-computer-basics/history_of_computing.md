@@ -1,7 +1,7 @@
 ---
 title: A Brief History of computing
 layout: page
-parent: Computer Basics
+parent: Chapter 1 - Computer Basics
 nav_order: 2
 ---
 

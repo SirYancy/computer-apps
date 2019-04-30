@@ -25,4 +25,6 @@ in this section will be of Word 2016. The differences are largely
 cosmetic, however, and where functional differences exist, they are
 usually behind the scenes.
 
+## In This Chapter
+
 {:toc}

@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial 5 - MLA Style'
 layout: page
-parent: Word Processing
+parent: Chapter 2 - Word Processing
 nav_order: 6
 ---
 

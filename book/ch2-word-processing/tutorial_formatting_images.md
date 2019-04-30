@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial 3 - Formatting and Working with Images'
 layout: page
-parent: Word Processing
+parent: Chapter 2 - Word Processing
 nav_order: 4
 ---
 

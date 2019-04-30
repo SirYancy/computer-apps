@@ -1,7 +1,7 @@
 ---
 title: 'Windows 7 - The Grand Tour'
 layout: page
-parent: Computer Basics
+parent: Chapter 1 - Computer Basics
 nav_order: 6
 ---
 

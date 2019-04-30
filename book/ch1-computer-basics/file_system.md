@@ -1,7 +1,7 @@
 ---
 title: The File Manager
 layout: page
-parent: Computer Basics
+parent: Chapter 1 - Computer Basics
 nav_order: 4
 ---
 

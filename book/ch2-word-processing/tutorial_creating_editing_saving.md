@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial 1 - Creating, Editing, and Saving a Word Document'
 layout: page
-parent: Word Processing
+parent: Chapter 2 - Word Processing
 nav_order: 2
 ---
 

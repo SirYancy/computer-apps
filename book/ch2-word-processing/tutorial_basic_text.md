@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial 2 - Basic Text Editing'
 layout: page
-parent: Word Processing
+parent: Chapter 2 - Word Processing
 nav_order: 3
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Project 1 - Block Letter'
 layout: page
-parent: Word Processing
+parent: Chapter 2 - Word Processing
 nav_order: 7
 ---
 

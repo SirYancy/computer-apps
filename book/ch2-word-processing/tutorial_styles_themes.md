@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial 4 - Styles and Themes'
 layout: page
-parent: Word Processing
+parent: Chapter 2 - Word Processing
 nav_order: 5
 ---
 
