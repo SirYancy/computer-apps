@@ -1,5 +1,5 @@
 ---
-title: Computer Basics
+title: Chapter 1 - Computer Basics
 layout: page
 nav_order: 1
 has_children: true

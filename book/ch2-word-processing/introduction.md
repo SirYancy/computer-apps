@@ -1,5 +1,5 @@
 ---
-title: Word Processing
+title: Chapter 2 - Word Processing
 layout: page
 nav_order: 2
 has_children: true
