@@ -1,7 +1,7 @@
 ---
-title: 'Tutorial 2 - Basic Text Editing'
+title: 'Tutorial 1.1 - Basic Formatting and Data Entry'
 layout: page
-parent: Chapter 2 - Word Processing
+parent: Chapter 4 - Spreadsheets
 nav_order: 3
 ---
 
@@ -51,7 +51,7 @@ Tutorial
 
 There is no start file for this tutorial.
 
-### Create a new Excel workbook
+## Create a new Excel workbook
 
 We are going to start from scratch in this tutorial.
 
@@ -63,7 +63,7 @@ We are going to start from scratch in this tutorial.
 2.  Once again, acquaint yourself with the basic interface a get a sense
     for what's where. When you are ready, move on to the next part.
 
-### Create worksheets
+## Create worksheets
 
 This book will follow the common convention in Excel that the first
 sheet in the workbook is a "documentation" sheet. It will display basic
@@ -86,7 +86,7 @@ created, and describes its purpose. So let's set up our tabs.
     ![Rename your
     worksheets](images/tutorial1/3.png%0A%20:alt:%20rename%20sheets%0A%20:width:%20100%)
 
-### Set up the documentation sheet
+## Set up the documentation sheet
 
 The documentation sheet will be used to document basic information about
 the workbook. This is a good practice to get into. Imagine getting a new
@@ -110,7 +110,7 @@ when you created, revised, or edited a particular workbook file.
     ![The documentation
     sheet](images/tutorial1/4.png%0A%20:width:%20100%%0A%20:alt:%20Documentation%20sheet)
 
-### Starting the Packing Slip
+## Starting the Packing Slip
 
 The first thing that any good packing slip needs is the address of the
 customer. This will give us a little practice with basic data entry.
@@ -138,7 +138,7 @@ customer. This will give us a little practice with basic data entry.
 
     ![](images/tutorial1/5.png)
 
-### Fixing alignment
+## Fixing alignment
 
 Now, we need to fix some alignment issues which gives us a good
 opportunity to talk about how Excel treats numbers and text differently.
@@ -156,12 +156,12 @@ were treated as text.
 
 1.  Select cell **B8**.
 
-    ![](images/tutorial1/6.png%0A%20:width:%20100%)
+    ![](images/tutorial1/6.png)
 
 2.  Click inside the forumla bar and place the insertion point at the
     beginning of the ZIP code before the first **4**.
 
-    ![](images/tutorial1/7.png%0A%20:width:%20100%)
+    ![](images/tutorial1/7.png)
 
 3.  Type an apostrophe, the **'** symbol. This is Excel's way of knowing
     that this all-numerical data is actually text. Once you hit
@@ -170,9 +170,9 @@ were treated as text.
     tiny green arrow in the corner of the cell. You can safely ignore
     this.
 
-    ![](images/tutorial1/8.png%0A%20:width:%20100%)
+    ![](images/tutorial1/8.png)
 
-### Fixing the documentation sheet
+## Fixing the documentation sheet
 
 If you click back over to the documentation sheet, you have entered
 today's date in cell B4. The interesting thing here is that Excel treats
@@ -187,14 +187,14 @@ some of the formatting. So follow along.
     accomodates all of the data in column **B**. The width should be
     about 53.
 
-    ![](images/tutorial1/9.png%0A%20:width:%20100%)
+    ![](images/tutorial1/9.png)
 
 2.  Notice now that the date is right-aligned. This looks funny. But
     instead of converting the date to text, we will simply right-align
     it. Select cell **B4**. In the **Alignment** group, click the
     **Align Left** tool.
 
-    ![](images/tutorial1/10.png%0A%20:width:%20100%)
+    ![](images/tutorial1/10.png)
 
 3.  One of the fun things that we can do with numbers is change the way
     that they are displayed. Consider the dozens of different ways you
@@ -203,29 +203,22 @@ some of the formatting. So follow along.
     drop-down that currently says **Date**. From the list, choose the
     **Long Date** format. Notice how the date is displayed.
 
-    ![](images/tutorial1/11.png%0A%20:width:%20100%)
+    ![](images/tutorial1/11.png)
 
-### Entering Tabular Data
+## Entering Tabular Data
 
 Now, we want to actually create a table of data. Let's say Ned Flanders
 orders a bunch of our fine widgets and he orders a wide variety of them.
 Let's build a table that will clearly display all of the different
 widgets that he has ordered.
 
-  --------------------------------------------------------------------------
-  BARCODE     CONDITION  FINISH  WIDGET                     PRICE  QUANTITY
-  ----------- ---------- ------- -------------------------- ------ ---------
-  7276-86434  New        Glossy  rockwell retro encabulator 12.45  4
-
-  6128-89793  Used       Matte   unilateral phase           67.45  2
-                                 detractors                        
-
-  7599-14097  Used       Greasy  cardinal gram meters       19.99  16
-
-  8169-64109  New        Satin   hydrocoptic marzel veins   8.75   1
-
-  5468-32757  New        Wood    panametric fans            123.4  1
-  --------------------------------------------------------------------------
+  | BARCODE    | CONDITION | FINISH | WIDGET                      | PRICE | QUANTITY |
+  | -          | -         | -      | -                           | -     | -        |
+  | 7276-86434 | New       | Glossy | rockwell retro encabulator  | 12.45 | 4        |
+  | 6128-89793 | Used      | Matte  | unilateral phase detractors | 67.45 | 2        |
+  | 7599-14097 | Used      | Greasy | cardinal gram meters        | 19.99 | 16       |
+  | 8169-64109 | New       | Satin  | hydrocoptic marzel veins    | 8.75  | 1        |
+  | 5468-32757 | New       | Wood   | panametric fans             | 123.4 | 1        |
 
 1.  Click on cell **A10**. In cells **A10:F10** enter the headings for
     our table as f\#llows (this time, press the **tab** key between each
@@ -237,14 +230,14 @@ widgets that he has ordered.
     -   PRICE
     -   QUANTITY
 
-        > ![](images/tutorial1/12.png%0A%20:width:%20100%)
+        > ![](images/tutorial1/12.png)
 
 2.  Under the headings, enter the data as shown in the table above in
     the cell range **A11:F15**. Some of the data won't appear to fit in
     the cells and will not be visible when you are finished. We will fix
     this next.
 
-    ![](images/tutorial1/13.png%0A%20:width:%20100%)
+    ![](images/tutorial1/13.png)
 
 3.  Now, resize the columns so that all of the data fits well. A quick
     way to do this is, instead of **dragging** the border between
@@ -252,13 +245,13 @@ widgets that he has ordered.
     Excel will autmoatically resize the column to the width of the
     longest content in that column.
 
-    ![](images/tutorial1/14.png%0A%20:width:%20100%)
+    ![](images/tutorial1/14.png)
 
 4.  Finally, let's set some number formats. Select cells **E12:E15**. In
     the **Number** group, in the big dropdown, select the **Currency**
     style.
 
-    ![](images/tutorial1/15.png%0A%20:width:%20100%)
+    ![](images/tutorial1/15.png)
 
 And there we have it. Compare yours to the above and if it looks
 reasonably similar, move on to the next part of the tutorial.

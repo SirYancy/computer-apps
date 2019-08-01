@@ -1,3 +1,10 @@
+---
+title: 'Tutorial 1.2 - Basic Formulas and Formatting'
+layout: page
+parent: Chapter 4 - Spreadsheets
+nav_order: 4
+---
+
 TUTORIAL 1.2 - Basic Formulas and Formatting
 ============================================
 
@@ -25,7 +32,7 @@ spreadsheet changes.
 
 Let's look at some of the basics of data analysis in Excel
 
-### Formula basics
+## Formula basics
 
 **Formula** - A formula is a mathematical expression that uses some
 combination of numbers **cell references**, and mathematical symbols to
@@ -64,25 +71,25 @@ some of the most fundamental rules:
 
 Here are some of the arithmetic operators that Excel accepts:
 
-  Operation         Symbol
-  ----------------- ---------
-  Addition          +
-  Subtraction       -
-  Multiplication    \*
-  Division          /
-  Exponent          \^
-  Grouping          ()
+  | Operation      | Symbol |
+  | -              | -      |
+  | Addition       | +      |
+  | Subtraction    | -      |
+  | Multiplication | \*     |
+  | Division       | /      |
+  | Exponent       | ^      |
+  | Grouping       | ()     |
 
 Using these basic rules, you can create just about any simple
 mathematical expression that you can imagine. Try these examples on a
 blank spreadsheet (don't forget to use the correct symbols and to start
 with an equal sign):
 
--   $6 + 7 \times 8$
--   $16 \div 8 - 2$
--   $(25 - 11) \times 3$
+-   $$ 6 + 7 \times 8 $$
+-   $$ 16 \div 8 - 2 $$
+-   $$ (25 - 11) \times 3 $$
 
-### Cell References
+## Cell References
 
 In order to take full advantage of Excel, an important thing to get used
 to is the concept of a **cell reference**. You can use the addresses of
@@ -99,7 +106,7 @@ formulas. We will use the same file that you used in the last tutorial,
 so hopefully, you did not delete it or lose it. Go ahead and open it now
 and we'll get started.
 
-### Adding a Cost Column
+## Adding a Cost Column
 
 Our next step in making this a useful spreadsheet is to find out just
 how much Ned Flanders spent. With just a little bit of practice, you'll
@@ -122,7 +129,7 @@ what we mean:
 
     ![](images/tutorial1-2/1.png%0A%20:width:%20100%)
 
-### Copying and Pasting Formulae
+## Copying and Pasting Formulae
 
 You could pretty quickly just repeat this process in the remaining four
 cells. However, this is not a pratical solution if you had a file with
@@ -152,7 +159,7 @@ behavior is very, very important to our understanding of Excel and
 learning how to make it do what we want. Let's look at an even quicker
 way of handling this problem
 
-### Use the Fill Handle
+## Use the Fill Handle
 
 There's a quicker way to fill in a column of data like this by using the
 **fill handle**. The fill handle allows us to quickly copy and paste the
@@ -179,7 +186,7 @@ We will talk about the fill handle more in later sections as it is an
 immensely useful tool and this only scratches the surface of its
 capabilities.
 
-### Adding it all up - Formulas
+## Adding it all up - Formulas
 
 The next step is to get the subtotal of the packing slip. We want to
 know what the before-tax cost of all of the widgets will be. As it turns
@@ -207,7 +214,7 @@ repetitive computations quickly. Essentially what the =SUM() function
 does is add up all of the numbers that you put between the parentheses.
 In this case, it adds together the range of cells G11:G15.
 
-### Sales Tax and Shipping
+## Sales Tax and Shipping
 
 Since we live in a world where the government always gets its share, we
 need to include sales tax in our final tally. This is fairly easy to
@@ -250,7 +257,7 @@ pass by reference to our total. Let's see how it's going to work.
 
     > ![](images/tutorial1-2/8.png%0A%20:width:%20100%)
 
-### Inserting a row
+## Inserting a row
 
 You notice, when looking over Ned's order, that he also ordered 5 sets
 of capacitive directants, so that needs to be included on this packing
@@ -276,7 +283,7 @@ Excel makes this easy.
 
     > ![](images/tutorial1-2/11.png%0A%20:width:%20100%)
 
-### Adding Borders and Touches
+## Adding Borders and Touches
 
 We're going to need to make it look nice printed since a packing slip is
 usually sent along with an order to verify that everything that was
