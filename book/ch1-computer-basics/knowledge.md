@@ -11,3 +11,5 @@ Data
 Information
 Knowledge
 Wisdom - Nibwaakawin
+
+We are primarily concernedwith Information for this course
