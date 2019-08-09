@@ -4,3 +4,10 @@ https://en.wikipedia.org/wiki/DIKW_pyramid
 # What is Information?
 
 # How are these things related?
+
+DIKW Hierarchy
+
+Data
+Information
+Knowledge
+Wisdom - Nibwaakawin
