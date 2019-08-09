@@ -1,3 +1,11 @@
+--- 
+title: 'Tutorial 6 - Tables Pivot Tables'
+layout: page
+parent: Chapter 4 - Spreadsheets
+nav_order: 9
+mathjax: true
+---
+
 TUTORIAL 6 - Tables and Pivot Tables
 ====================================
 
@@ -14,33 +22,32 @@ collection fo individual data entries. A list, if you will. So for
 example, let's imagine our company has four salespeople. We might
 imagine a table with the following columns:
 
-  Column Name     Data Type
-  --------------- ---------------------------------------
-  Month           The Month The sale took place
-  Salesperson     Name of the person who made the sale
-  Account         Account number of the customer
-  Order Amount    The amount of the order in dollars
+  | Column Name  | Data Type                            |
+  | -            | -                                    |
+  | Month        | The Month The sale took place        |
+  | Salesperson  | Name of the person who made the sale |
+  | Account      | Account number of the customer       |
+  | Order Amount | The amount of the order in dollars   |
 
 ### Tables
 
-1.  Download the [start
-    file](http://erickuha.com/primer/excel_resources/pivot_start.xlsx).
+1.  Download the [start file](res/pivot_start.xlsx).
 2.  Examine the sheet and get a sense of what it's reporting. Each line
     is an individual sale of some product made by a particular sales
     person, during a month, and for some total amount.
 
-    > ![](images/tutorial_pivot_2/1.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/1.png){: width="75%"}
 
 3.  Select any cell inside of the data and go to the **Insert** tab.
 4.  In the **Tables** group, click on the **Table** tool.
 
-    > ![](images/tutorial_pivot_2/2.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/2.png){: width="75%"}
 
 5.  In the **Create Table** dialog, ensure that the range is correct
     (you'll see the ants marching around your data). Also, ensure that
     the *My table has headers* box is checked.
 
-    > ![](images/tutorial_pivot_2/3.png%0A%20:width:%2050%)
+    ![](images/tutorial_pivot_2/3.png){: width="75%"}
 
 6.  In the **Table Tools Design** tab, in the **Table Styles** group,
     select any style you wish. In the **Table Style Options** group,
@@ -48,7 +55,7 @@ imagine a table with the following columns:
     *Banded Rows*, or *Banded Columns*, and the other options. Ensure
     that it looks like this before moving on to the next step:
 
-    > ![](images/tutorial_pivot_2/4.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/4.png){: width="75%"}
 
 7.  In the Properties box, change the table name to **SalesData**.
 
@@ -64,7 +71,7 @@ you to manipulate it in some interesting and useful ways.
 2.  In the **Data** tab, **Sort & Filter** group, click the Sort A to Z
     Button. The table is now sorted by the name of the salesperson.
 
-    > ![](images/tutorial_pivot_2/5.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/5.png){: width="75%"}
 
 3.  Now, select any cell in the table data. Again, in the **Data** tab,
     click the **Sort** button to bring up the Sort dialog. Here, you can
@@ -74,19 +81,19 @@ you to manipulate it in some interesting and useful ways.
     select the list that says *January, February, March, etc*. Click
     **OK** and then click **OK** and observe the results.
 
-    > ![](images/tutorial_pivot_2/6.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/6.png){: width="75%"}
 
 5.  We can also filter data, that is, omit data that we don't need at
     the moment (wihtout deleting it). Click the filter button next to
     the Account column heading. Remove the checkmarks from all entries
     except account *31005* and click **OK**.
 
-    > ![](images/tutorial_pivot_2/7.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/7.png){: width="75%"}
 
 6.  Now only the data for that account is displayed. To verify, examine
     the row numbers and see how it skips some rows.
 
-    > ![](images/tutorial_pivot_2/8.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/8.png){: width="75%"}
 
 Now, we want to try something a little different. We'll add a different
 kind of filtering method that's a bit mroe interactive. Introducing the
@@ -98,7 +105,7 @@ kind of filtering method that's a bit mroe interactive. Introducing the
     **Insert Slicer**. Click in the box next to *Salesperson* to select
     it and click **OK**.
 
-    > ![](images/tutorial_pivot_2/9.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/9.png){: width="75%"}
 
 2.  Reposition and resize the slicer so it looks nice. You can also
     apply a style to it if you like. Observe what happens when you click
@@ -120,13 +127,13 @@ few extra clicks.
     scroll to the bottom of the table. Observe that you now have the
     total sum of all of the sales in the table.
 
-    > ![](images/tutorial_pivot_2/10.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/10.png){: width="75%"}
 
 2.  Mouse over the total on the table and then click on the dropdown
     menu that appears to the right. Select *Average* from this menu to
     get the average sale total for the entire quarter:
 
-    > ![](images/tutorial_pivot_2/11.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/11.png){: width="75%"}
 
 3.  Now, let's say this isn't enough detail, and we want to add monthly
     subtotals to our table. Unfortunately, this task cannot be automated
@@ -137,7 +144,7 @@ few extra clicks.
     is sorted by Month and that the names of the months are selected and
     in the correct order (as we did earlier in this tutorial).
 
-    > ![](images/tutorial_pivot_2/12.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/12.png){: width="75%"}
 
 4.  Now, Click anywhere in the data and, in the **Table Tools Design**
     tab, under the **Tools** group, click *Convert to Range*.
@@ -149,7 +156,7 @@ few extra clicks.
     in: *Month*, Use function: *Sum*. Add subtotal to: *Order Amount*.
     Ensure that *Summary below data* is selected and click **OK**.
 
-    > ![](images/tutorial_pivot_2/13.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/13.png){: width="75%"}
 
 6.  Scroll through the table and observe what has been done. There is a
     subtotal at the bottom of every month. Also, notice that in the far
@@ -157,7 +164,7 @@ few extra clicks.
     months using these buttons. At the top, try clicking on the level 2
     button and see how the table collapses just to monthly totals.
 
-    > ![](images/tutorial_pivot_2/14.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/14.png){: width="75%"}
 
 7.  Finally, back in the **Data** tab, click on *Subtotal* again, and
     this time, at the bottom left of the dialog, click **Remove All** to
@@ -185,27 +192,19 @@ a hundred different ways.
     ensure that the correct data is selected and the pivot table is
     being generated in a *New Worksheet*.
 
-    > ![](images/tutorial_pivot_2/15.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/15.png){: width="75%"}
 
 2.  Now, right off the bat, you will see nothing much. But here's the
     breakdown of what is here:
 
-    > ![](images/tutorial_pivot_2/16.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/16.png){: width="75%"}
 
-      ----- ------------------------------------------------------------------
-      Area  Description
-
-      ROWS  These will become row labels
-
-      COLUM These will become column labels
-      NS    
-
-      FILTE This is where you can filter data based on any of the field data
-      RS    
-
-      VALUE Fields placed in this box will populate the table data cells based
-      S     on a formula that you choose (SUM, AVERAGE, etc)
-      ----- ------------------------------------------------------------------
+    | Area    | Description                                                                                                         |
+    | -       | -                                                                                                                   |
+    | ROWS    | These will become row labels                                                                                        |
+    | COLUMNS | These will become column labels                                                                                     |
+    | FILTERS | This is where you can filter data based on any of the field data                                                    |
+    | VALUES  | Fields placed in this box will populate the table data cells based on a formula that you choose (SUM, AVERAGE, etc) |
 
     In essence, the purpose of a pivot table is to be able to take the
     fields and rotate them around so the actual data becomes the rows
@@ -215,7 +214,7 @@ a hundred different ways.
 3.  In the **PivotTable Fields** box, **click** on the checkbox next to
     the Salesperson field.
 
-    > ![](images/tutorial_pivot_2/17.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/17.png){: width="75%"}
 
     Notice the names of the individual salespeople are now the row
     labels for this new table. Also, notice that Salesperson is now in
@@ -226,7 +225,7 @@ a hundred different ways.
     Last, drag **Order Amount** to the *Values* box. This is what it
     should look like:
 
-    > ![](images/tutorial_pivot_2/18.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/18.png){: width="75%"}
 
 5.  This is the beginning of a useful summary of the data. At the very
     least, it's sorted and organized. However, the real magic of a pivot
@@ -235,7 +234,7 @@ a hundred different ways.
     the *Column* box. Simply click and drag it out of the *Rows* box and
     into the *Columns* box.
 
-    > ![](images/tutorial_pivot_2/19.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/19.png){: width="75%"}
 
 6.  Now, let's add a slicer to this pivot table. First, ensure that the
     cell selector is somewhere inside the pivot table. Then, uncheck the
@@ -244,12 +243,12 @@ a hundred different ways.
     group, **click** the *Insert Slicer* tool. In the dialog that opens,
     select *Salesperson* and click OK.
 
-    > ![](images/tutorial_pivot_2/20.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/20.png){: width="75%"}
 
 7.  Now, you can use the slicer to select data for any of the
     salespeople on the fly.
 
-    > ![](images/tutorial_pivot_2/21.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/21.png){: width="75%"}
 
 8.  Rename the sheet where your pivot chart is *Sales Data Pivot*.
 
@@ -265,12 +264,12 @@ on the pivot data.
     opens, select *Sum of Order Amount by Month*. It should be the
     second one down in the list.
 
-    > ![](images/tutorial_pivot_2/22.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/22.png){: width="75%"}
 
 2.  In the **Values** box at the bottom right of the window, select *Sum
     of Order Amount* and click on *Value Field Settings*
 
-    > ![](images/tutorial_pivot_2/23.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/23.png){: width="75%"}
 
 3.  First, change the calculation to *Average*. Then, **Click** *Number
     Format* and and change the format to *Currency*. Observe the result
@@ -279,7 +278,7 @@ on the pivot data.
     Tools Analyze** tab, **Tools** group, **click** the *PivotChart*
     tool. Choose the *Clustered Column* and click OK.
 
-    > ![](images/tutorial_pivot_2/24.png%0A%20:width:%20100%)
+    ![](images/tutorial_pivot_2/24.png){: width="75%"}
 
 5.  Change the name of this sheet to *Monthly Sales*.
 

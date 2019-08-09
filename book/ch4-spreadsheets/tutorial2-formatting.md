@@ -1,5 +1,12 @@
-TUTORIAL 2 - Tables
-===================
+---
+title: 'Tutorial 2 - Formatting Tables'
+layout: page
+parent: Chapter 4 - Spreadsheets
+nav_order: 5
+---
+
+TUTORIAL 2 - Formatting Tables
+==============================
 
 One of Excel's most important jobs is to make tabular data readable and
 presentable. Some of this will be review from the previous tutorials,
@@ -32,7 +39,7 @@ printed or exported to a pdf for distribution within your company.
 2.  Open the start file in Microsoft Excel. Acquaint yourself with the
     problems in the file.
 
-    > ![](images/tutorial2/1.png%0A%20:width:%20100%)
+    ![](images/tutorial2/1.png){: width="75%"}
 
 ### Resize columns
 
@@ -46,26 +53,26 @@ them.
     right until you can see all of the text in column **A**. You may
     have to adjust it a few times to get it right.
 
-    > ![](images/tutorial2/2.png%0A%20:width:%20100%)
+    ![](images/tutorial2/2.png){: width="75%"}
 
 2.  Try this next: hold the mouse over the border between the column
     headers for **B** and **C**. **Double-click** the left mouse button.
     The column will instantly resize to accomodate all of the content in
     the column.
 
-    > ![](images/tutorial2/3.png%0A%20:width:%20100%)
+    ![](images/tutorial2/3.png){: width="75%"}
 
 3.  You can actually resize all of the columns at once and
     automatically. First, select columns **C** through **F** by clicking
     and dragging through their column headers.
 
-    > ![](images/tutorial2/4.png%0A%20:width:%20100%)
-    >
-    > Then, **Double-click** on the border between any two of these
-    > columns. All four columns should automatically re-size to
-    > accomodate their contents.
-    >
-    > ![](images/tutorial2/5.png%0A%20:width:%20100%)
+    ![](images/tutorial2/4.png){: width="75%"}
+   
+    Then, **Double-click** on the border between any two of these
+    columns. All four columns should automatically re-size to
+    accomodate their contents.
+
+    ![](images/tutorial2/5.png){: width="75%"}
 
 ### Create a Title
 
@@ -74,7 +81,7 @@ it were centered across the entire table?
 
 1.  Select cells **A1** through **F1**.
 
-    > ![](images/tutorial2/6.png%0A%20:width:%20100%)
+    ![](images/tutorial2/6.png){: width="75%"}
 
 2.  In the **Home** tab, **Alignment** group, find the **Merge &
     Center** tool. **Click** it. The result should be one single cell
@@ -82,7 +89,7 @@ it were centered across the entire table?
     merge a group of cells into one, they retain the *name* of the
     top-left-most cell, in this case, **A1**.
 
-    > ![](images/tutorial2/7.png%0A%20:width:%20100%)
+    ![](images/tutorial2/7.png){: width="75%"}
 
 ### Quick Formatting
 
@@ -102,7 +109,7 @@ other data analysis.
     color, and typeface for the title and sets it apart from the rest of
     the table data, making it easy to see.
 
-    > ![](images/tutorial2/8.png%0A%20:width:%20100%)
+    ![](images/tutorial2/8.png){: width="75%"}
 
 3.  Next, select the table. Specifically, select the cell range
     **A2:F17**.
@@ -110,12 +117,12 @@ other data analysis.
     **Format as Table**. This will open a dialog that has a number of
     table styles to choose from.
 
-    > ![](images/tutorial2/9.png%0A%20:width:%20100%)
+    ![](images/tutorial2/9.png){: width="75%"}
 
 5.  Choose any style you like, but ensure it appears to have banded rows
     and a bolder header row.
 
-    > ![](images/tutorial2/10.png%0A%20:width:%20100%)
+    ![](images/tutorial2/10.png){: width="75%"}
 
 6.  When you select and click on a style, a dialog will open. Put a
     check in the box that says **My table has headers**. This is
@@ -146,25 +153,25 @@ Try this:
     itself. It's a very handy feature, especially when dealing with very
     large data sets.
 
-    > ![](images/tutorial2/11.png%0A%20:width:%20100%)
+    ![](images/tutorial2/11.png){: width="75%"}
 
     You can also use this tool to filter out entire categories of rows,
     but let's try another method of filtering.
 3.  With at least one cell in the table selected, in the **Table Tools:
     Design** tab, click the **Insert Slicer** tool.
 
-    ![](images/tutorial2/12.png%0A%20:width:%20100%)
+    ![](images/tutorial2/12.png){: width="75%"}
 
 4.  In the dialog that opens, put a check in the box for the *Status*
     column.
 
-    ![](images/tutorial2/13.png%0A%20:width:%20100%)
+    ![](images/tutorial2/13.png){: width="75%"}
 
 5.  Move and resize the slicer to an appropriate location and then play
     around with it, to see how it is used to filter out entire
     categories of data.
 
-    ![](images/tutorial2/14.png%0A%20:width:%20100%)
+    ![](images/tutorial2/14.png){: width="75%"}
 
 ### Conclusion
 

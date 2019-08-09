@@ -3,6 +3,7 @@ title: 'Tutorial 1.2 - Basic Formulas and Formatting'
 layout: page
 parent: Chapter 4 - Spreadsheets
 nav_order: 4
+mathjax: true
 ---
 
 TUTORIAL 1.2 - Basic Formulas and Formatting
@@ -85,9 +86,9 @@ mathematical expression that you can imagine. Try these examples on a
 blank spreadsheet (don't forget to use the correct symbols and to start
 with an equal sign):
 
--   $$ 6 + 7 \times 8 $$
--   $$ 16 \div 8 - 2 $$
--   $$ (25 - 11) \times 3 $$
+-   $ 6 + 7 \times 8 $
+-   $ 16 \div 8 - 2 $
+-   $ (25 - 11) \times 3 $
 
 ## Cell References
 
@@ -127,7 +128,7 @@ what we mean:
     Type =F11\*E11. Remember that the "*" is the Excel multiplication
     operator. PressEnter*\* and observe the result.
 
-    ![](images/tutorial1-2/1.png%0A%20:width:%20100%)
+    ![](images/tutorial1-2/1.png){: width="75%"}
 
 ## Copying and Pasting Formulae
 
@@ -167,20 +168,20 @@ contents of one cell into other cells while also updating the cell
 references in formulas. Let's try it out to see how it works.
 
 ![The Fill
-Handle](images/tutorial1-2/2.png%0A%20:alt:%20Fill%20Handle%0A%20:width:%20100%)
+Handle](images/tutorial1-2/2.png){: width="75%"}
 
 1.  Select cell **G11** again.
 2.  Hold the mouse over the **Fill Handle**
 3.  Notice how the cursor changes to a plus sign. **Click and drag** the
     fill handle down until the outline surrounds the entire column.
 
-    ![](images/tutorial1-2/3.png%0A%20:alt:%20Drag%20Fill%20Handle%0A%20:width:%20100%)
+    ![](images/tutorial1-2/3.png){: width="75%"}
 
 4.  **Release** the mouse button.
 5.  Verify that the formulas in each cell have been updated and were
     correctly applied. It should look like this:
 
-    ![](images/tutorial1-2/4.png%0A%20:alt:%20Fill%20Handle%20Result%0A%20:width:%20100%)
+    ![](images/tutorial1-2/4.png){: width="75%"}
 
 We will talk about the fill handle more in later sections as it is an
 immensely useful tool and this only scratches the surface of its
@@ -206,7 +207,7 @@ what happened.
 3.  Observe what appears in the cell, the formula: =SUM(G11:G15). Press
     **Enter**. The total, **\$636.69** should appear.
 
-    ![](images/tutorial1-2/5.png%0A%20:alt:%20Formula%20Result%0A%20:width:%20100%)
+    ![](images/tutorial1-2/5.png){: width="75%"}
 
 The entry in cell **G16** a special kind of formula. It's a
 **function**. A function is a special, named tool for doing complex and
@@ -231,7 +232,7 @@ pass by reference to our total. Let's see how it's going to work.
     10 headers and drag it down a little bit to make the row a little
     wider. This separates the table headings from the Sales Tax cells.
 
-    ![](images/tutorial1-2/6.png%0A%20:alt:%20Sales%20Tax%0A%20:width:%20100%)
+    ![](images/tutorial1-2/6.png){: width="75%"}
 
 4.  Select cell **F17** and type *Tax*. Press **Tab**.
 5.  In cell **G17**, enter the formula =G16\*G9. Press **Enter**. Thus,
@@ -239,7 +240,7 @@ pass by reference to our total. Let's see how it's going to work.
 6.  In cell **F18**, enter *Shipping*. Pres **Tab**.
 7.  In Cell **G18**, enter the amount *\$45.00*. Press **Enter**.
 
-    ![](images/tutorial1-2/7.png%0A%20:alt:%20Shipping%0A%20:width:%20100%)
+    ![](images/tutorial1-2/7.png){: width="75%"}
 
 8.  Now let's create a total row. In cell **F19** type *Total*. Press
     **Tab**.
@@ -255,7 +256,7 @@ pass by reference to our total. Let's see how it's going to work.
     **Enter**. The final formula (with the SUM() function) will look
     like this: =SUM(G16:G18)
 
-    > ![](images/tutorial1-2/8.png%0A%20:width:%20100%)
+    ![](images/tutorial1-2/8.png){: width="75%"}
 
 ## Inserting a row
 
@@ -270,18 +271,18 @@ Excel makes this easy.
 
 1.  Select all of **Row 13** by clicking on the row heading
 
-    > ![](images/tutorial1-2/9.png%0A%20:width:%20100%)
+    ![](images/tutorial1-2/9.png){: width="75%"}
 
 2.  In the **Cells** group of the **Home** tab, press the **Insert**
     button. You now have a new row.
 3.  Let's populate it with the necessary details from the above table.
 
-    > ![](images/tutorial1-2/10.png%0A%20:width:%20100%)
+    ![](images/tutorial1-2/10.png){: width="75%"}
 
 4.  Notice now that the Subtotal, Tax, and Total cells have all
     automatically updated.
 
-    > ![](images/tutorial1-2/11.png%0A%20:width:%20100%)
+    ![](images/tutorial1-2/11.png){: width="75%"}
 
 ## Adding Borders and Touches
 
@@ -304,22 +305,22 @@ Next, let's add some cell borders.
 2.  Click the down arrow next to the border tool and press the **All
     Borders** option from the border menu:
 
-    > ![](images/tutorial1-2/12.png%0A%20:width:%20100%)
+    ![](images/tutorial1-2/12.png){: width="75%"}
 
 3.  Observe that the address section has all borders marked.
 
-    > ![](images/tutorial1-2/13.png%0A%20:width:%20100%)
+    ![](images/tutorial1-2/13.png){: width="75%"}
 
 4.  Select cell **A4** and click the **Borders** button. It will now
     default to "all borders" since it was the last border tool that you
     used.
 
-    > ![](images/tutorial1-2/14.png%0A%20:width:%20100%)
+    ![](images/tutorial1-2/14.png){: width="75%"}
 
 5.  Do the same with the following cells and cell ranges: **F10:G10**,
     **A11:G17**, **F18:G21**.
 
-    > ![](images/tutorial1-2/15.png%0A%20:width:%20100%)
+    ![](images/tutorial1-2/15.png){: width="75%"}
 
 If you were to hit print riht now, you would find that the way the
 content is arranged on the page, it will not fit on one sheet of paper.
@@ -328,7 +329,7 @@ In order to remedy this, we just flip the orientation.
 1.  Click on the **Page Layout** tab. Under the **Orientation** tool,
     select **Landscape**.
 
-    > ![](images/tutorial1-2/16.png%0A%20:width:%20100%)
+    ![](images/tutorial1-2/16.png){: width="75%"}
 
 2.  Click the **File** tab and select **Print**. Observe that the entire
     packing slip now fits neatly on a single page.

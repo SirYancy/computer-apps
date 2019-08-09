@@ -1,3 +1,10 @@
+--- 
+title: 'Tutorial 3 - References: Absolute and Relative'
+layout: page
+parent: Chapter 4 - Spreadsheets
+nav_order: 6
+---
+
 TUTORIAL 3 - References: Absolute and Relative
 ==============================================
 
@@ -78,13 +85,13 @@ example. Clear out the second column and once again, enter the formula
 =A1 into cell **B1**.
 
 ![Start with a relative
-reference](images/tutorial_ref/6.png%0A%20:alt:%20Relative%20Reference)
+reference](images/tutorial_ref/6.png){: width="75%"}
 
 Now, in the **formula bar**, change the formula by inserting dollar
 signs (\$) before the two coordinates so that it reads =\$A\$1, like so:
 
 ![Creating an absolute
-reference](images/tutorial_ref/7.png%0A%20:alt:%20Absolute%20Reference)
+reference](images/tutorial_ref/7.png){: width="75%"}
 
 What happened? The value didn't change at all, but it looks like no
 other cell reference that we've used. Now, try dragging the fill handle
@@ -122,36 +129,36 @@ this case will be quite straightforward.
     the cell references by simply clicking on the cells rather than
     typing in their coordinates.
 
-    > ![](images/tutorial_ref/9.png%0A%20:width:%20100%)
+    ![](images/tutorial_ref/9.png){: width="75%"}
 
 4.  Select cell **E3**. To calculate the taxes that would be taken out
     of Frank's paycheck, we need to use the tax rate (this is highly
     simplified flat tax situation) of 27%. We simply multiply the tax
     rate by the gross pay. Thus, we get the formula =D3\*B9.
 
-    ![](images/tutorial_ref/10.png%0A%20:width:%20100%)
+    ![](images/tutorial_ref/10.png){: width="75%"}
 
 5.  Finally, select cell **F3**. To calculate the net pay or "takehome"
     pay, you simply subtract the taxes from the gross pay. So, the
     formula is =D3-E3.
 
-    > ![](images/tutorial_ref/11.png%20%20%0A%20:width:%20100%)
+    ![](images/tutorial_ref/11.png){: width="75%"}
 
 6.  Now, to fill in the rest of the table. Select the first row of your
     calculations, the cell range **D3:F3**.
 7.  Drag the **fill handle** down to complete the table. Only
     something's gone wrong:
 
-    > ![](images/tutorial_ref/12.png%20%0A%20:width:%20100%)
-    >
-    > Apparently, three of our employees do not pay taxes!
+    ![](images/tutorial_ref/12.png){: width="75%"}
+   
+    Apparently, three of our employees do not pay taxes!
 
 8.  To fix this, we must use an absolute reference to the tax rate cell.
     Select cell **E3**. Convert the reference to cell **B9** to an
     absolute reference by inserting dollar signs (\$) before the *B* and
     the *9*. the formula should now read =D3\*\$B\$9.
 
-    > ![](images/tutorial_ref/13.png%20%20%0A%20:width:%20100%)
+    ![](images/tutorial_ref/13.png){: width="75%"}
 
 9.  Once again, select cell **E3**, drag the fill handle down, and fill
     in the rest of the column. The table should now read correctly and
@@ -159,12 +166,12 @@ this case will be quite straightforward.
     column E the formulas will increment the relative reference, but not
     the absolute reference.
 
-    > ![](images/tutorial_ref/14.png%20%20%0A%20:width:%20100%)
+    ![](images/tutorial_ref/14.png){: width="75%"}
 
 10. For fun, use the **AutoSum** tool to fill in the total row and see
     what the totals for payroll are this pay period.
 
-    > ![](images/tutorial_ref/15.png%20%20%0A%20:width:%20100%)
+    ![](images/tutorial_ref/15.png){: width="75%"}
 
 Times Table
 -----------
@@ -188,30 +195,30 @@ is our first attempt at this. Follow along.
 4.  Now, select both cells **B1** and **C1**, and drag the fill handle
     to the right until the tooltip says *10*.
 
-    > ![](images/tutorial_ref/16.png%20%20%0A%20:width:%20100%)
+    ![](images/tutorial_ref/16.png){: width="75%"}
 
 5.  Follow the same steps to create a column of numbers from 1 to 10 in
     column **A**, so that it looks like this:
 
-    > ![](images/tutorial_ref/17.png%20%20%0A%20:width:%20100%)
+    ![](images/tutorial_ref/17.png){: width="75%"}
 
 6.  Style your new header row and column up however you like. Just dow
     something to make them stand out a bit. I decided to use
     dark-colored heading styles from the **Cell Styles** menu:
 
-    > ![](images/tutorial_ref/18.png%20%20%0A%20:width:%20100%)
+    ![](images/tutorial_ref/18.png){: width="75%"}
 
 7.  Now, think about how a times table works. What goes in cell **B2**?
     It should be the product of the numbers in cells **B1** and **A2**,
     right? So enter the formula: =B1\*A2. The result is 1.
 
-    > ![](images/tutorial_ref/19.png%20%20%0A%20:width:%20100%)
+    ![](images/tutorial_ref/19.png){: width="75%"}
 
 8.  Next, ensure that cell **B2** is selected and drag the fill handle
     to the right to fill in the first row of the times table. I think
     you'll notice immediately that something isn't right:
 
-    > ![](images/tutorial_ref/20.png%20%20%0A%20:width:%20100%)
+    ![](images/tutorial_ref/20.png){: width="75%"}
 
 9.  Let's investigate the error. Our first clue is in the formula box.
     Since we know that 1 \* 10 should equal 10 and *not* 3,628,800.
@@ -220,7 +227,7 @@ is our first attempt at this. Follow along.
     by the top column, it multiplied the cell above by the cell to the
     left. **Double-click** cell **K2** to see what I mean:
 
-    > ![](images/tutorial_ref/21.png%20%20%0A%20:width:%20100%)
+    ![](images/tutorial_ref/21.png){: width="75%"}
 
 Okay, so what went wrong? We're multiplying the wrong cells together.
 The problem will only get worse if we use the fill handle to fill in the
@@ -241,7 +248,7 @@ the first cell and we can just fill-handle the whole table.
 1.  First, let's delete everything from the table except the contents of
     cell **B2**.
 
-    > ![](images/tutorial_ref/22.png%20%20%0A%20:width:%20100%)
+    ![](images/tutorial_ref/22.png){: width="75%"}
 
 2.  Now, let's look closely at the formula in the cell. =B1\*A2. In
     every cell in this entire table, we will be mutliplying a number
@@ -251,13 +258,13 @@ the first cell and we can just fill-handle the whole table.
 3.  Look very carefully at what's different here. We're locking in the
     **1** from the first operand and the **A** from the second operand.
 
-    > ![](images/tutorial_ref/23.png%20%20%0A%20:width:%20100%)
+    ![](images/tutorial_ref/23.png){: width="75%"}
 
 4.  Last step: Make sure that **B2** is selected and then **drag** the
     **fill handle** to the right. And then **drag** it down. And voila.
     The entire table is completed in a matter of seconds
 
-    > ![](images/tutorial_ref/24.png%20%20%0A%20:width:%20100%)
+    ![](images/tutorial_ref/24.png){: width="75%"}
 
 Save your file, upload it to the portal. And try to think of other ways
 in which you can use mixed references like this.

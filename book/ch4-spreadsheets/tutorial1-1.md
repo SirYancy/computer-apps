@@ -58,7 +58,7 @@ We are going to start from scratch in this tutorial.
 1.  Open the Microsoft Excel app and from the backstage view, select
     **Blank workbook**.
 
-    ![Create a new blank workbook](images/tutorial1/1.png)
+    ![Create a new blank workbook](images/tutorial1/1.png){: width="75%}
 
 2.  Once again, acquaint yourself with the basic interface a get a sense
     for what's where. When you are ready, move on to the next part.
@@ -75,7 +75,7 @@ created, and describes its purpose. So let's set up our tabs.
     icon next to **Sheet1** to create a new sheet called **Sheet2**.
 
     ![Create a second
-    worksheet](images/tutorial1/2.png%0A%20:alt:%20New%20Sheet%0A%20:width:%20100%)
+    worksheet](images/tutorial1/2.png){: width="75%"}
 
 2.  To rename a sheet, you simply double-click the left mouse button on
     the sheet's name. **Double-click** on Sheet 1 and type
@@ -84,7 +84,7 @@ created, and describes its purpose. So let's set up our tabs.
 4.  Select the **Documentation** sheet before moving on.
 
     ![Rename your
-    worksheets](images/tutorial1/3.png%0A%20:alt:%20rename%20sheets%0A%20:width:%20100%)
+    worksheets](images/tutorial1/3.png){: width="75%"}
 
 ## Set up the documentation sheet
 
@@ -108,7 +108,7 @@ when you created, revised, or edited a particular workbook file.
     have reached this point.
 
     ![The documentation
-    sheet](images/tutorial1/4.png%0A%20:width:%20100%%0A%20:alt:%20Documentation%20sheet)
+    sheet](images/tutorial1/4.png){: width="75%}
 
 ## Starting the Packing Slip
 
@@ -136,7 +136,7 @@ customer. This will give us a little practice with basic data entry.
 
 5.  Your final product will like this
 
-    ![](images/tutorial1/5.png)
+    ![](images/tutorial1/5.png){: width="75%}
 
 ## Fixing alignment
 
@@ -156,12 +156,12 @@ were treated as text.
 
 1.  Select cell **B8**.
 
-    ![](images/tutorial1/6.png)
+    ![](images/tutorial1/6.png){: width="75%}
 
 2.  Click inside the forumla bar and place the insertion point at the
     beginning of the ZIP code before the first **4**.
 
-    ![](images/tutorial1/7.png)
+    ![](images/tutorial1/7.png){: width="75%}
 
 3.  Type an apostrophe, the **'** symbol. This is Excel's way of knowing
     that this all-numerical data is actually text. Once you hit
@@ -170,7 +170,7 @@ were treated as text.
     tiny green arrow in the corner of the cell. You can safely ignore
     this.
 
-    ![](images/tutorial1/8.png)
+    ![](images/tutorial1/8.png){: width="75%}
 
 ## Fixing the documentation sheet
 
@@ -187,14 +187,14 @@ some of the formatting. So follow along.
     accomodates all of the data in column **B**. The width should be
     about 53.
 
-    ![](images/tutorial1/9.png)
+    ![](images/tutorial1/9.png){: width="75%}
 
 2.  Notice now that the date is right-aligned. This looks funny. But
     instead of converting the date to text, we will simply right-align
     it. Select cell **B4**. In the **Alignment** group, click the
     **Align Left** tool.
 
-    ![](images/tutorial1/10.png)
+    ![](images/tutorial1/10.png){: width="75%}
 
 3.  One of the fun things that we can do with numbers is change the way
     that they are displayed. Consider the dozens of different ways you
@@ -203,7 +203,7 @@ some of the formatting. So follow along.
     drop-down that currently says **Date**. From the list, choose the
     **Long Date** format. Notice how the date is displayed.
 
-    ![](images/tutorial1/11.png)
+    ![](images/tutorial1/11.png){: width="75%}
 
 ## Entering Tabular Data
 
@@ -230,14 +230,14 @@ widgets that he has ordered.
     -   PRICE
     -   QUANTITY
 
-        > ![](images/tutorial1/12.png)
+    ![](images/tutorial1/12.png){: width="75%}
 
 2.  Under the headings, enter the data as shown in the table above in
     the cell range **A11:F15**. Some of the data won't appear to fit in
     the cells and will not be visible when you are finished. We will fix
     this next.
 
-    ![](images/tutorial1/13.png)
+    ![](images/tutorial1/13.png){: width="75%}
 
 3.  Now, resize the columns so that all of the data fits well. A quick
     way to do this is, instead of **dragging** the border between
@@ -245,13 +245,13 @@ widgets that he has ordered.
     Excel will autmoatically resize the column to the width of the
     longest content in that column.
 
-    ![](images/tutorial1/14.png)
+    ![](images/tutorial1/14.png){: width="75%}
 
 4.  Finally, let's set some number formats. Select cells **E12:E15**. In
     the **Number** group, in the big dropdown, select the **Currency**
     style.
 
-    ![](images/tutorial1/15.png)
+    ![](images/tutorial1/15.png){: width="75%}
 
 And there we have it. Compare yours to the above and if it looks
 reasonably similar, move on to the next part of the tutorial.

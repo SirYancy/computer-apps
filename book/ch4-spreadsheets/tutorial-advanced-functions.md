@@ -1,3 +1,11 @@
+--- 
+title: 'Tutorial 5 - Advanced Functions'
+layout: page
+parent: Chapter 4 - Spreadsheets
+nav_order: 8
+mathjax: true
+---
+
 TUTORIAL 5 - Advanced Functions
 ===============================
 
@@ -36,8 +44,7 @@ Home Loan
 Tutorial
 --------
 
-Download the [Start
-File](http://erickuha.com/primer/excel_resources/advanced_examples-1.xlsx).
+Download the [Start File](res/advanced_examples-1.xlsx).
 
 ### The IF() Function
 
@@ -59,11 +66,11 @@ a **True** or **False** value), a value to display if the test is
 3.  In the **Function Arguments** dialog, we must think carefully about
     our parameters. The logical test must ask if the amount that donor
     gave was greater than or equal to \$50. In Excel, this is
-    represented by the operator \>=. So in the *Logical\_test* box, we
-    enter G2\>=50. In the *Value\_if\_true* box, we want to the output
+    represented by the operator `>=`. So in the *Logical\_test* box, we
+    enter `G2>=50`. In the *Value_if_true* box, we want to the output
     to display *"Free Gift"*. Enter the string "Free Gift". In the
-    *Value\_if\_false* box, we want it to display nothing, so we use
-    empty quotation marks to denote an empty string: "".
+    *Value_if_false* box, we want it to display nothing, so we use
+    empty quotation marks to denote an empty string: `""`.
 
     ![](images/advanced/3.png)
 

@@ -1,3 +1,10 @@
+--- 
+title: 'Tutorial 4 - Functions and Basic Charts'
+layout: page
+parent: Chapter 4 - Spreadsheets
+nav_order: 7
+---
+
 TUTORIAL 4 - Functions and Basic Charts
 =======================================
 
@@ -15,24 +22,12 @@ and graphs are for visualizing data, but it can often be tricky to
 decide just what kind of chart to use. So how do we decide? Here's a
 basic rundown, then we'll look at a couple of examples:
 
-  ------------------------------------------------------------------------
-  Chart  When to use it
-  Type   
-  ------ -----------------------------------------------------------------
-  Line   Line graphs are used to track changes over time. So if there's a
-  Graph  time dimension, use a line graph
-
-  Pie    Use a pie chart to compare parts of a whole. Like a pie!
-  Chart  
-
-  Bar    Like a line graph, used to compare changes over time, but usually
-  Graph  best for large changes. Can also be used to to compare things
-         between different groups
-
-  Scatte If you have two variables that relate to each other, you can set
-  r      one to the X axis and one to the Y axis. It shows the
-  Plot   relationship between two things
-  ------------------------------------------------------------------------
+ | Chart Type   | When to use it                                                                                                                                           |
+ | -            | -                                                                                                                                                        |
+ | Line Graph   | Line graphs are used to track changes over time. So if there's a time dimension, use a line graph                                                        |
+ | Pie Chart    | Use a pie chart to compare parts of a whole. Like a pie!                                                                                                 |
+ | Bar Graph    | Like a line graph, used to compare changes over time, but usually best for large changes. Can also be used to to compare things between different groups |
+ | Scatter Plot | If you have two variables that relate to each other, you can set one to the X axis and one to the Y axis. It shows the relationship between two things   |
 
 What does each one look like?
 
@@ -43,8 +38,7 @@ common example would be to show stock prices changes over time. For a
 fun contemporary look at a line graph, here's the price of BitCoins over
 the last year.
 
-![The price of a Bitcoin in USD(\$) over the last
-year.](images/tutorial_charts/bitcoin.png)
+![The price of a Bitcoin in USD(\$) over the last year.](images/tutorial_charts/bitcoin.png)
 
 As you can see, it gives a fantastic visualization of the change in
 price over the last year for the most famous crypto-currency. By the
@@ -124,7 +118,7 @@ saw in a previous tutorial.
 3.  Add a total row and a total column in the way that you wish. Ensure
     that it looks like this:
 
-    ![](images/tutorial_charts/1.png%0A%20:width:%20100%)
+    ![](images/tutorial_charts/1.png){: width="75%"}
 
 Now we're going to add some columns for statistics. In particular, the
 **AVERAGE()**, **MAX()**, **MIN()** functions and a "percent of total"
@@ -147,12 +141,12 @@ column. This way we can get some more data to include in our charts.
     trying to do as a consequence of formatting the data as a table.
     Adjust the number of decimal places shown so it looks nice.
 
-    > ![](images/tutorial_charts/2.png%0A%20:width:%20100%)
+    ![](images/tutorial_charts/2.png){: width="75%"}
 
 3.  Follow the same process for Columns **P** and **Q** and the MAX()
     and MIN() functions. The result should look like this:
 
-    > ![](images/tutorial_charts/3.png%0A%20:width:%20100%)
+    ![](images/tutorial_charts/3.png){: width="75%"}
 
 4.  In cell **R2**, enter the new heading *Percent of Total*.
 5.  Select cell **R3**. Enter =, click on cell **N3** (the total for the
@@ -166,7 +160,7 @@ column. This way we can get some more data to include in our charts.
 6.  Change the number format of these cells to percentages, resize the
     column, and you should have something that looks like this:
 
-    > ![](images/tutorial_charts/4.png%0A%20:width:%20100%)
+    ![](images/tutorial_charts/4.png){: width="75%"}
 
 ### A bar graph
 
@@ -179,7 +173,7 @@ graph.
 2.  In the **Insert** tab, **Charts** group, select the **Column** tool
     and select the first option, **Clustered Column**:
 
-    > ![](images/tutorial_charts/5.png%0A%20:width:%20100%)
+    ![](images/tutorial_charts/5.png){: width="75%"}
 
 3.  The first thing you'll notice, is that our chart looks terrible.
     That's because it's being correlated by bill and not by month. Let's
@@ -187,7 +181,7 @@ graph.
     the **Data** group, select the **Switch Row/Column** tool. It will
     look a lot more reasonable.
 
-    > ![](images/tutorial_charts/6.png%0A%20:width:%20100%)
+    ![](images/tutorial_charts/6.png){: width="75%"}
 
 4.  Examine your chart. The chart is still a little weird and if you
     look carefully at the legend on the bottom of the chart, you might
@@ -204,7 +198,7 @@ graph.
     *Clustered Column*, and the total is set to *Line*. Last, check the
     *Secondary Axis* box next to the Total line.
 
-    > ![](images/tutorial_charts/7.png%0A%20:width:%20100%)
+    ![](images/tutorial_charts/7.png){: width="75%"}
 
 8.  Press **OK**.
 9.  To polish up our Chart a little bit, double click on the Chart Title
@@ -225,23 +219,23 @@ to each other.
     the *Ctrl* key while selecting the range N3:N6. This allows us to
     select both the names and the totals of each bill.
 
-    > ![](images/tutorial_charts/8.png%0A%20:width:%20100%)
+    ![](images/tutorial_charts/8.png){: width="75%"}
 
 3.  In the **Insert** tab, select the **Pie Chart** tool and select the
     first 2D pie chart.
 
-    > ![](images/tutorial_charts/9.png%0A%20:width:%20100%)
+    ![](images/tutorial_charts/9.png){: width="75%"}
 
 4.  Now, select **Add Chart Element**, **Data Labels**, and select the
     **Data Callout** option. This puts the bill name and percentage on
     each pie slice.
 
-    > ![](images/tutorial_charts/10.png%0A%20:width:%20100%)
+    ![](images/tutorial_charts/10.png){: width="75%"}
 
 5.  Again, in **Add Chart Element**, **Legend**, select **None** since
     we don't need it with the data callouts.
 
-    > ![](images/tutorial_charts/11.png%0A%20:width:%20100%)
+    ![](images/tutorial_charts/11.png){: width="75%"}
 
 6.  Finally, change the chart title to **Total Bills** and move it to
     its own chart sheet.
@@ -260,6 +254,6 @@ how they work
 3.  Click on the heading in Column **O** and change the heading to
     **Year Trend**. This is what it should all look like.
 
-    > ![](images/tutorial_charts/12.png%0A%20:width:%20100%)
+    ![](images/tutorial_charts/12.png){: width="75%"}
 
 //TODO Finish this Section
