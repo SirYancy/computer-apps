@@ -1,3 +1,10 @@
+--- 
+title: 'Project 2 - Baseball Salaries'
+layout: page
+parent: Chapter 4 - Spreadsheets
+nav_order: 11
+---
+
 PROJECT - Baseball Salaries
 ===========================
 
@@ -10,19 +17,18 @@ anything with it.
 Here's how:
 -----------
 
-1.  Download the [start
-    file](http://erickuha.com/primer/excel_resources/baseball.csv)
+1.  Download the [start file](res/baseball.csv)
 2.  Open the file in Microsoft Excel. You should see the data displayed
     as normal.
 3.  Click the **File** tab and in the backstage view, click **Save As**
 
-    > ![](images/project_pivot/1.png%0A%20:width:%20100%)
+    ![](images/project_pivot/1.png){: width="75%"}
 
 4.  Click **Browse**. In the *Save As* dialog, navigate to your
     preferred folder, and then in the *Save as type:* dropdown, select
     **Excel Workbook (*.xlsx)*\*
 
-    > ![](images/project_pivot/2.png%0A%20:width:%20100%)
+    ![](images/project_pivot/2.png){: width="75%"}
 
 Now that your file is saved, format the data as a table by clicking
 inside the data (anywhere) and pressing **Ctrl-a** on your keyboard.
@@ -37,7 +43,7 @@ tables to answer the following questions, and then enter them into the
 
 Your answer sheet will look something like this:
 
-> ![](images/project_pivot/3.png%0A%20:width:%20100%)
+![](images/project_pivot/3.png){: width="75%"}
 
 Answer the following questions:
 

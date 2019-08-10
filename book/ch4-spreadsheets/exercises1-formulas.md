@@ -1,3 +1,10 @@
+--- 
+title: 'Project 1 - Formulas Practice'
+layout: page
+parent: Chapter 4 - Spreadsheets
+nav_order: 10
+---
+
 PROJECT - Formulas Practice
 ===========================
 
@@ -13,8 +20,7 @@ a spreadsheet showing the meat quantities for a company barbecue. Only
 problem is, your co-worker never took this class and has no idea how to
 calculate the totals in the spreadsheet. That's where you come in.
 
-1.  Download the [start
-    file](http://erickuha.com/primer/excel_resources/formulas_start.xlsx)
+1.  Download the [start file](res/formulas_start.xlsx)
 2.  In the **Bills** sheet, fill in the totals column and the totals row
     using whatever formulas and functions you feel are appropriate.
 3.  In the **Requisition** sheet, fill in the blank spaces in the sheet

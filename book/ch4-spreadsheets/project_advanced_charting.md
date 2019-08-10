@@ -1,3 +1,10 @@
+--- 
+title: 'Project 5 - Advanced Weather Data'
+layout: page
+parent: Chapter 4 - Spreadsheets
+nav_order: 14
+---
+
 PROJECT - Advanced Weather Data
 ===============================
 
@@ -9,7 +16,7 @@ from them. This is totally open-ended, but there are a few guidelines:
 Directions
 ----------
 
-[Data Files](http://erickuha.com/primer/excel_resources/weather/)
+[Data Files](res/weather/)
 
 1.  Each chart should be accompanied by a description of *why* this
     chart is interesting. However, brief it might be.

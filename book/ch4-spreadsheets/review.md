@@ -1,3 +1,10 @@
+--- 
+title: 'Review 5 - An Excel Refresher'
+layout: page
+parent: Chapter 4 - Spreadsheets
+nav_order: 15
+---
+
 REVIEW - A Quick Refesher of Excel Basics
 =========================================
 
@@ -9,8 +16,7 @@ formulas, tables, and charts.
 Tutorial
 --------
 
-Download the [start
-file](http://erickuha.com/primer/excel_resources/excel_review_start.xlsx).
+Download the [start file](res/excel_review_start.xlsx).
 
 ### Basic Editing
 
@@ -21,11 +27,11 @@ On the documentation sheet, click the link for the first exercise.
 
 1.  For Exeercise 1, select cells B6:B7. Click on the fill handle
 
-    ![The Fill Handle](images/review/1.png%0A%20:width:%20100%)
+    ![The Fill Handle](images/review/1.png){: width="75%"}
 
     and drag the mouse down two cells, so your screen looks like this:
 
-    ![](images/review/2.png%0A%20:width:%20100%)
+    ![](images/review/2.png){: width="75%"}
 
     Notice that Excel follows the same pattern established in the first
     two cells. Do the same with the cells C6:C7 and D6:D7
@@ -33,12 +39,12 @@ On the documentation sheet, click the link for the first exercise.
 2.  Next, use the fill handle to fill in the names of the months and
     days of the week in Exercise 2:
 
-    ![](images/review/3.png%0A%20:width:%20100%)
+    ![](images/review/3.png){: width="75%"}
 
 3.  In Exercise 3, select cell F30. Enter the formula =SUM(C30:E30).
     Alternately, the Autosum tool should work:
 
-    ![](images/review/4.png%0A%20:width:%20100%)
+    ![](images/review/4.png){: width="75%"}
 
     When you press **enter**, notice that it fills in the rest of the
     column. Next, select cell C35 and type =SUM(. Next, use the mouse to
@@ -49,7 +55,7 @@ On the documentation sheet, click the link for the first exercise.
     already generated. But you will have to do some detail. Select cells
     E41:G41. Drag the fill handle down to fill in the table:
 
-    ![](images/review/5.png%0A%20:width:%20100%)
+    ![](images/review/5.png){: width="75%"}
 
     Notice that the *taxes* column is all wrong, and hence, the *Net
     Pay* column is all wrong as well. THe reason for this is that it
@@ -64,7 +70,7 @@ On the documentation sheet, click the link for the first exercise.
     In C58:C60, add the formulas for AVERAGE, MIN, and MAX respectively.
     It should look like this:
 
-    ![](images/review/6.png%0A%20:width:%20100%)
+    ![](images/review/6.png){: width="75%"}
 
 ### Charting
 
@@ -74,17 +80,17 @@ On the next sheet, we'll build a few charts.
     **Insert** tab, click the **Clustered Column**. Choose the first one
     and style it however you like.
 
-    ![](images/review/7.png%0A%20:width:%20100%)
+    ![](images/review/7.png){: width="75%"}
 
 2.  Next, select the cells B20:E23. Click the **Clustered Column** tool
     again, but this time use the Clustered Bar graph.
 
-    ![](images/review/8.png%0A%20:width:%20100%)
+    ![](images/review/8.png){: width="75%"}
 
 3.  Finally, select cells B28:F29. Choose the **Scatter Plot** as shown
     in the following screenshot.
 
-    ![](images/review/9.png%0A%20:width:%20100%)
+    ![](images/review/9.png){: width="75%"}
 
 4.  **Challenge**: Create a pie chart from the labels and the totals
     from the Cookie Sales table. You will have to generate the totals
