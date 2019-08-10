@@ -2,7 +2,7 @@
 title: What is a Computer?
 layout: page
 parent: Chapter 1 - Computer Basics
-nav_order: 1
+nav_order: 10
 ---
 
 What is a Computer?

@@ -2,7 +2,7 @@
 title: 'Windows 7 - The Grand Tour'
 layout: page
 parent: Chapter 1 - Computer Basics
-nav_order: 6
+nav_order: 60
 ---
 
 Microsoft Windows 7 is the operating system that we will use in our

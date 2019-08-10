@@ -2,7 +2,7 @@
 title: Productivity Software
 layout: page
 parent: Chapter 1 - Computer Basics
-nav_order: 5
+nav_order: 50
 ---
 
 Introduction

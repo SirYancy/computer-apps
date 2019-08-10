@@ -2,7 +2,7 @@
 title: The Operating System
 layout: page
 parent: Chapter 1 - Computer Basics
-nav_order: 3
+nav_order: 30
 ---
 
 The Operating System
