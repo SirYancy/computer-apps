@@ -26,7 +26,7 @@ Data are facts. Each fact is just a little thing that is true (we hope). Without
 
 ## Information
 
-When you take raw data and give it structure and context, it becomes information. Information data that tells us something about the world. It gives us something that raw facts do not. Knowing the temperature last week isn't very useful. But knowing that it was a little warmer last week than it is today, and that throughout that time, it has steadily been getting cooler, might tell me that the seasons are beginning to change and that winter is coming. The American educator Nicholas Henry called information "Data that changes us".
+When you take raw data and give it structure and context, it becomes information. Information that tells us something about the world. It gives us something that raw facts do not. Knowing the temperature last week isn't very useful. But knowing that it was a little warmer last week than it is today, and that throughout that time, it has steadily been getting cooler, might tell me that the seasons are beginning to change and that winter is coming. The American educator Nicholas Henry called information "Data that changes us".
 
 Once I've moved up this hierarchy, from raw facts to facts plus context, I have something that I didn't have before. I have data in a structure. And it is *this* aspect of human experience that this course focuses on. However, even information has its limits. Knowing what information is leads up one more level.
 
