@@ -50,7 +50,7 @@ In Ojibwemowin, Nibwaakaawin is Wisdom. To cherish knowledge is to know wisdom. 
 
 This framework is often called DIKW. It's particularly relevant to the study of information technology because it gives us a sense of where, in the realm of human experience, this study resides.
 
-![DIKW Pyramid](images/dikw.png)
+ ![DIKW Pyramid](images/dikw.png)
 
 This course is about information technology in general, and about the way we interface with it in particular. We will look at various applications that have been developed over the last few decades that give us the ability to interact with information in a fast, intuitive way. However, it is very important that we can understand that all that information out there, all those memes, cat pictures, social media, and news articles only exist to inform us at higher levels of understanding. Without giving at least a little thought to how that information can help us build upon our knowledge and how that knowledge informs us and makes us wise, it isn't very useful.
 

@@ -156,7 +156,7 @@ turn.
 Inside the Computer
 ===================
 
-![A Motherboard](images/motherboard.png)
+![A Motherboard](../images/motherboard.png)
 
 John von Neumann conceived of a very simple architecture which we still
 use today. At its core, a computer has two main components, the Central
