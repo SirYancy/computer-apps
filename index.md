@@ -18,3 +18,4 @@ Table of Contents
 * [Word Processing]({{ site.baseurl }}{% link book/ch2-word-processing/introduction.md %})
 * [Presentation Software]({{ site.baseurl }}{% link book/ch3-presentation/introduction.md %})
 * [Spreadsheets]({{ site.baseurl }}{% link book/ch4-spreadsheets/introduction.md %})
+* [Databases]({{ site.baseurl }}{% link book/ch5-databases/introduction.md %})
