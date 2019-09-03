@@ -222,7 +222,11 @@ possible.
 Grace Hopper and the compiler
 =============================
 
-//TODO
+![Grace Hopper](images/grace_hopper.jpg)
+
+In the early days, all computers could understand was machine language. That is, 1s and 0s. *All* programming was done in machine language using binary codes. In 1952, she developed the first compiler program. The idea is simple: let's write computer programs using English words and then translate or **compile** them into machine language. In 1954, she was worked on a project which developed an early high-level English-word based programming language that would eventually become COBOL, a language still in use today.
+
+The very idea of being able to write programs in human-readable language was revolutionary and Hopper's legacy in the world of computing is incalculable. She is quite possibly only surpassed in importance by Alan Turing, himself.
 
 The Internet
 ============
