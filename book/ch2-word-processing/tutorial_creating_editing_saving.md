@@ -30,7 +30,7 @@ TUTORIAL
     -   What do you use it for?
     -   On a scale of 1-10, how would you rate your experience with
         digital technology?
-    -   What do you hope to get out of this class?
+    -   What is one question you have about computers that you'd like answered?
 
     ![This is kind of what we're
     looking for.](images/tutorial1/intro_example.png)
