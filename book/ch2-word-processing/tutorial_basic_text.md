@@ -15,6 +15,7 @@ pre {
     white-space: -pre-wrap;
     white-space: -o-pre-wrap;
     word-wrap: break-word;
+    background-color: 808080;
 }
 </style>
 
@@ -50,7 +51,7 @@ TUTORIAL
     introduction](word_tour.html) if you can't remember where these are.
     Your window should look like this:
 
-    ![A brand new Word document](images/tutorial2/1.png){: width="100%"}
+    ![A brand new Word document](images/tutorial2/1.png)
 
 2.  We are going to write a block-style letter. This means that all of
     our text will be aligned to the left, paragraphs will be styled as
@@ -64,11 +65,13 @@ TUTORIAL
     1212 Elm St. &crarr;
     Bemidji, MN 56601 &crarr;
     </pre>
+
 3.  Next, type the date:
 
     <pre>
     June 27, 2017 &crarr;
     </pre>
+
 4.  Next, type the sender's address as follows:
 
     <pre>
@@ -76,15 +79,17 @@ TUTORIAL
     310 Pillsbury Drive SE &crarr;
     Minneapolis, MN 55455-0231 &crarr;
     </pre>
+
 5.  Now, type the salutation:
 
     <pre>
     Dear Dr. Gemstone, &crarr;
     </pre>
+
     Your document should look like this:
 
     ![Addresses, date, and
-    salutation](images/tutorial2/2.png){: width="100%"}
+    salutation](images/tutorial2/2.png)
 
 6.  Type the following paragraph *exactly* as it appears here (typos and
     all):
@@ -92,6 +97,7 @@ TUTORIAL
     <pre>
     Thank you for taking the time to resond to my question. Enclosed is an image of of the stone I found on my hike a couple weeks ago. I belive it is a meteorite, but my friends don't agree. So I wanted to ask someone more knowledgable about the subject. I know their is only a small chance that it is a meteorite, but I wanted to make sure. &crarr;
     </pre>
+
 7.  When you are finished, notice that Word has detected a number of
     errors in the text. It has automatically underlined these errors
     based on what kind of error it is. Underlined in red squiggly lines
@@ -103,7 +109,7 @@ TUTORIAL
     least detected it and will have underlined it in blue.
 
     ![Spelling and Grammar errors are underlined in
-    different ways.](images/tutorial2/3.png){: width="100%"}
+    different ways.](images/tutorial2/3.png)
 
 8.  There are a couple of different ways to correct spelling and grammar
     errors that are detected by Word. **Right-click** on the first
@@ -112,7 +118,7 @@ TUTORIAL
     but always make sure.
 
     ![Right-clicking is a good way to quickly fix
-    single errors.](images/tutorial2/4.png){: width="100%"}
+    single errors.](images/tutorial2/4.png)
 
 9.  To proof the rest of the document, let's use the **Spelling &
     Grammar** tool. Go to the **Review** tab. In the far left
@@ -122,7 +128,7 @@ TUTORIAL
 
     ![The Spelling & Grammar tool gives you a full-featured interface to
     check for errors in
-    your text.](images/tutorial2/5.png){: width="100%"}
+    your text.](images/tutorial2/5.png)
 
     Click the **Delete** button to fix the first error. Go through each
     of the rest of the errors and take the suggested fix for each one.
@@ -134,6 +140,7 @@ TUTORIAL
     <pre>
     I understand that you are very busy and I appreciate you taking the time to verify this for me. If you have any questions, feel free to contact me at &lt;yourname&gt;@email.com. &crarr;
     </pre>
+
     Where it says "yourname", enter your name. Notice that when you hit
     enter to create the next paragraph, the email address is
     automatically underlined in blue. Word has detected that it is an
@@ -147,7 +154,7 @@ TUTORIAL
 11. To remove the hyperlink, **right-click** on it and in the
     context-menu that appears, **left-click** on *Remove Hyperlink*
 
-    ![Remove the hyperlink](images/tutorial2/6.png){: width="100%"}
+    ![Remove the hyperlink](images/tutorial2/6.png)
 
 12. To close the letter, type:
 
@@ -156,6 +163,7 @@ TUTORIAL
     &crarr;
     &lt;your name&gt;
     </pre>
+
 13. Our last task is to fix some of the formatting. Remember that
     whenever you press the **Enter/Return** key, Word creates a
     new paragraph. Observe how the paragraphs of this document
@@ -168,7 +176,7 @@ TUTORIAL
     whitespace, click once in the margin to the left of the first line:
 
     ![Select just the first line of
-    text](images/tutorial2/7.png){: width="100%"}
+    text](images/tutorial2/7.png)
 
 14. The cursor will flip backwards to indicate that you are in the
     right place. With the first line selected, in the **Paragraph**
@@ -176,7 +184,7 @@ TUTORIAL
     Spacing** tool. In the menu that opens, click **Remove Space After
     Paragraph**.
 
-    ![Remove the space after the paragraph](images/tutorial2/8.png){: width="100%"}
+    ![Remove the space after the paragraph](images/tutorial2/8.png)
 
     The return address should now look like one block of text.
 
@@ -186,7 +194,7 @@ TUTORIAL
     Pillsbury Drive SE".
 
     ![Just select the first two lines of the
-    address](images/tutorial2/9.png){: width="100%"}
+    address](images/tutorial2/9.png)
 
 16. Once again, remove the space after the paragraphs in the **Line and
     Paragraph Spacing** menu. Observe how the addresses and the date now
@@ -205,17 +213,17 @@ TUTORIAL
     is appropriate, so we will select the **Custom Margins** option at
     the bottom of the menu.
 
-    ![Custom Margins](images/tutorial2/11.png){: width="100%"}
+    ![Custom Margins](images/tutorial2/11.png)
 
     In the dialog that opens, feel free to browse all of the tools that
     are available here and when you are ready, change the top margin to
     *3* inches and press **OK**.
 
     ![Change the top margin to 3
-    inches](images/tutorial2/12.png){: width="100%"}
+    inches](images/tutorial2/12.png)
 
 18. Your final file should look like this.
 
-    ![The completed document](images/tutorial2/10.png){: width="100%"}
+    ![The completed document](images/tutorial2/10.png)
 
 19. Save the document and submit it to the class portal as normal.
