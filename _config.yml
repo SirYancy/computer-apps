@@ -33,6 +33,8 @@ color_scheme: "dark"
 
 search_enabled: true
 
+footer_content: "Copyright &copy; 2015-2020 Eric Kuha. Distributed by an <a href=\"https://github.com/SirYancy/computer-apps/tree/master/LICENSE\">MIT license.</a>"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
