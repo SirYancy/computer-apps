@@ -5,28 +5,31 @@ parent: Chapter 2 - Word Processing
 nav_order: 8
 ---
 
-Project 2 - Flyer
+Project 2 - Fancy Formatting
 =================
 
 Before completing this project, ensure that you have completed the
-formatting tutorial:
+formatting tutorials:
 
 -   [Tutorial 3 - Formatting Text and
     Images](tutorial_formatting_images.html)
+-   [Tutorial 3.5 - More Formatting](tutorial_newsletter.html)
 -   [Example Finished
     Flyer](res/tutorial3.pdf)
+-   [Example Finished Newsletter](res/newsletter.pdf)
 
 Discussion
 ----------
 
-As discussed in the tutorial, building an eye-catching, effective flyer
-in Word is quite simple. A flyer should catch the reader's eye, be easy
-to read from a distance, and have some way of attracting a person closer
-to read the fine print. An image is a nice tough to accentuate a point
-or display an item for sale.
+For this tutorial, your job is to create your own flyer, newsletter, or other image-featuring document in Microsoft Word. This time, it is your job to generate all the content and source all the images.
 
-Your task is to generate your own flyer for a fictional event, sale, or
-information. Some possible inspiration:
+As discussed in the tutorial, building an eye-catching, effective flyer or newsletter
+in Word is quite simple. It should catch the reader's eye, be easy
+to read, and have some way of attracting a person closer
+to read the fine print. Images should be used to accentuate your points without overwhelming or confusing the issue.
+
+Your task is to generate your own flyer or newsletter for a fictional event, sale, or
+informative lesson. Some possible inspiration:
 
 -   A lost pet
 -   A found pet
