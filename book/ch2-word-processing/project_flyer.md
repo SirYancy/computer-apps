@@ -44,11 +44,12 @@ Requirements
 The content and styling are totally up to you. Be as creative as you
 wish. But it must have the following features:
 
--   An image with a style applied
--   Appropriately sized fonts, other than the defaults, but legible
--   It must use both text colors and shading somewhere in the flyer
--   It must have margins set appropriate to the content.
--   It must use other appropriate styling to make the text stand out.
+-   More than one image, some or all with styles applied.
+-   Appropriately sized fonts, other than the defaults, but legible.
+    - Use Word Art or other text effects as you wish.
+-   You must use both text colors and shading somewhere in the flyer
+-   You must have margins set appropriate to the content.
+-   You must use other appropriate styling to make the text stand out.
     Include bold, italic, underlines, or other text effects.
 -   Even if it's silly, no low-effort submissions. Make it look as
     though you are genuinely trying to sell the subject.
@@ -62,6 +63,6 @@ Other considerations
 -   Have enough information that a person can react appropriately (such
     as including contact information).
 
-Refer to the example if you are interested in some ideas
+Refer to the examples if you are interested in some ideas
 
 Submit your final document to the portal as normal.
