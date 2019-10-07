@@ -15,7 +15,7 @@ brief and succinct way. Imagine that you would be filling in any gaps
 with a speech--which you will not have to give.
 
 Here is an
-[example](res/koala.pptx).
+[example](res/Koala.pptx).
 
 Possible slide topics
 ---------------------
