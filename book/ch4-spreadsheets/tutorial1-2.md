@@ -266,6 +266,7 @@ slip and the total needs to be updated accordingly. As it turns out,
 Excel makes this easy.
 
   | BARCODE | CONDITION | FINISH | WIDGET | PRICE | QUANTITY |
+  | -       | -         | -      | -      | -     | -        |
   | 1423-4667 | Used | Clean | capacitive diractants | $45.99 | 5 |
 
 1.  Select all of **Row 13** by clicking on the row heading
