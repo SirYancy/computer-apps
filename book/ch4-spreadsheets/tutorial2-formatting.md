@@ -35,7 +35,7 @@ printed or exported to a pdf for distribution within your company.
 ### Download the Start File
 
 1.  Download the [Start
-    File](http://erickuha.com/primer/excel_resources/formatting_start.xlsx)
+    File](https://itech.erickuha.com/book/ch4-spreadsheets/res/formatting_start.xlsx)
 2.  Open the start file in Microsoft Excel. Acquaint yourself with the
     problems in the file.
 
