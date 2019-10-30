@@ -117,7 +117,7 @@ We will build a times table which would normally be very tedious, but in
 this case will be quite straightforward.
 
 1.  Download the [start
-    file](http://erickuha.com/primer/excel_resources/tutorial_references_start.xlsx)
+    file](https://itech.erickuha.com/book/ch4-spreadsheets/res/tutorial_references_start.xlsx)
 2.  **Open** the file and you should be in the first sheet, the payroll
     sheet. All of the data is already here for you, so all you need to
     do is fill in all of the blanks. Let's just fill in the first row,
