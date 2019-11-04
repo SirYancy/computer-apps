@@ -270,20 +270,20 @@ how they work
 
     ![](images/tutorial_charts/12.png)
 
-#. Select the new blank cells **O3:O7**.
-#. In the **Inert** tab, find the **Sparklines** group and click **Line**.
+1. Select the new blank cells **O3:O7**.
+1. In the **Inert** tab, find the **Sparklines** group and click **Line**.
 
     ![](images/tutorial_charts/13.png)
 
-#. The *Location Range* should be pre-populated with the range `$O$3:$O$7`. With the insertion point in the the *Data Range* box, simply select the cells `B3:M7` and that reference should appear in the box. Verify that your screen looks like this image before clicking **OK**.
+1. The *Location Range* should be pre-populated with the range `$O$3:$O$7`. With the insertion point in the the *Data Range* box, simply select the cells `B3:M7` and that reference should appear in the box. Verify that your screen looks like this image before clicking **OK**.
 
     ![](images/tutorial_charts/14.png)
 
-#. The result looks like this:
+1. The result looks like this:
 
     ![](images/tutorial_charts/15.png)
 
-#. To create the *Data Bars*, select cells `N3:N6` and in the **Home** tab, select **Conditional Formatting**. Then simply select **Data Bars** and choose a style you like. This gives you the ability to visualize data *within* a cell as it relates to data in other cells.
+1. To create the *Data Bars*, select cells `N3:N6` and in the **Home** tab, select **Conditional Formatting**. Then simply select **Data Bars** and choose a style you like. This gives you the ability to visualize data *within* a cell as it relates to data in other cells.
 
     ![](images/tutorial_charts/16.png)
 
