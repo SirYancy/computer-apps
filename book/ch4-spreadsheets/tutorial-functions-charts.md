@@ -112,23 +112,37 @@ We're going to take another look at the yearly bills worksheet that we
 saw in a previous tutorial.
 
 1.  Download the [start
-    file](http://erickuha.com/primer/excel_resources/charting_start.xlsx)
-2.  Reacquaint yourself with the data in the table. It has already been
-    formatted for you. Let's add some more data
+    file](https://itech.erickuha.com/book/ch4-spreadsheets/res/charting_start.xlsx)
+
+    ![The Start](images/tutorial_charts/1.png)
+
+2.  The data is very raw. As in [Tutorial 2](https://itech.erickuha.com/book/ch4-spreadsheets/tutorial2-formatting.html), select cells **A1-M1** and click **Merge &amp; Center**. Then add the Title stile to this new cell. It should look like this:
+
+    ![Merge and Centered Title](1-2.png)
+
+3. Next, select any cell that is part of the data table (**E4**, for example), and then, in the **Insert** tab, click **Table**. You'll notice that this time, Excel mistakenly selects cell A1. To fix this, simply click and drag to select only cells **A2:M6**. Ensure that *"My table has headers"* is checked and click **OK**.
+
+    ![make table](1-3.png)
+
+3. Select a table style that you like and your spreadsheet should look like this. If anything is wrong, *undo everything (Ctrl-z) and start over*.
+
+    ![Formatted](1-4.png)
+
 3.  Add a total row and a total column in the way that you wish. Ensure
     that it looks like this:
 
-    ![](images/tutorial_charts/1.png){: width="75%"}
+    ![Total Rows](1-5.png)
+
 
 Now we're going to add some columns for statistics. In particular, the
 **AVERAGE()**, **MAX()**, **MIN()** functions and a "percent of total"
 column. This way we can get some more data to include in our charts.
 
-  Function    Purpose
-  ----------- ------------------------------------------------------------
-  AVERAGE()   Adds all cells together and divides by the number of cells
-  MAX()       Finds the highest number in a range of cells
-  MIN()       Finds the lowest number in a range of cells
+  | Function  | Purpose                                                    |
+  | -         | -                                                          |
+  | AVERAGE() | Adds all cells together and divides by the number of cells |
+  | MAX()     | Finds the highest number in a range of cells               |
+  | MIN()     | Finds the lowest number in a range of cells                |
 
 ### Getting started
 
@@ -141,12 +155,12 @@ column. This way we can get some more data to include in our charts.
     trying to do as a consequence of formatting the data as a table.
     Adjust the number of decimal places shown so it looks nice.
 
-    ![](images/tutorial_charts/2.png){: width="75%"}
+    ![](images/tutorial_charts/2.png)
 
 3.  Follow the same process for Columns **P** and **Q** and the MAX()
     and MIN() functions. The result should look like this:
 
-    ![](images/tutorial_charts/3.png){: width="75%"}
+    ![](images/tutorial_charts/3.png)
 
 4.  In cell **R2**, enter the new heading *Percent of Total*.
 5.  Select cell **R3**. Enter =, click on cell **N3** (the total for the
@@ -154,13 +168,13 @@ column. This way we can get some more data to include in our charts.
     total for all bills), finally press **F4** on the keyboard to
     convert the reference to **N7** into an absolute reference. The
     final formula will end up looking like this (note how Excel
-    automatically re-labels some cell references): =[@Total]/\$N\$7.
+    automatically re-labels some cell references): `=[@Total]/$N$7`.
     When you hit **Enter**, it should fill in the rest of the column
     autmoatically!
 6.  Change the number format of these cells to percentages, resize the
     column, and you should have something that looks like this:
 
-    ![](images/tutorial_charts/4.png){: width="75%"}
+    ![](images/tutorial_charts/4.png)
 
 ### A bar graph
 
@@ -173,7 +187,7 @@ graph.
 2.  In the **Insert** tab, **Charts** group, select the **Column** tool
     and select the first option, **Clustered Column**:
 
-    ![](images/tutorial_charts/5.png){: width="75%"}
+    ![](images/tutorial_charts/5.png)
 
 3.  The first thing you'll notice, is that our chart looks terrible.
     That's because it's being correlated by bill and not by month. Let's
@@ -181,7 +195,7 @@ graph.
     the **Data** group, select the **Switch Row/Column** tool. It will
     look a lot more reasonable.
 
-    ![](images/tutorial_charts/6.png){: width="75%"}
+    ![](images/tutorial_charts/6.png)
 
 4.  Examine your chart. The chart is still a little weird and if you
     look carefully at the legend on the bottom of the chart, you might
@@ -198,7 +212,7 @@ graph.
     *Clustered Column*, and the total is set to *Line*. Last, check the
     *Secondary Axis* box next to the Total line.
 
-    ![](images/tutorial_charts/7.png){: width="75%"}
+    ![](images/tutorial_charts/7.png)
 
 8.  Press **OK**.
 9.  To polish up our Chart a little bit, double click on the Chart Title
@@ -219,23 +233,23 @@ to each other.
     the *Ctrl* key while selecting the range N3:N6. This allows us to
     select both the names and the totals of each bill.
 
-    ![](images/tutorial_charts/8.png){: width="75%"}
+    ![](images/tutorial_charts/8.png)
 
 3.  In the **Insert** tab, select the **Pie Chart** tool and select the
     first 2D pie chart.
 
-    ![](images/tutorial_charts/9.png){: width="75%"}
+    ![](images/tutorial_charts/9.png)
 
 4.  Now, select **Add Chart Element**, **Data Labels**, and select the
     **Data Callout** option. This puts the bill name and percentage on
     each pie slice.
 
-    ![](images/tutorial_charts/10.png){: width="75%"}
+    ![](images/tutorial_charts/10.png)
 
 5.  Again, in **Add Chart Element**, **Legend**, select **None** since
     we don't need it with the data callouts.
 
-    ![](images/tutorial_charts/11.png){: width="75%"}
+    ![](images/tutorial_charts/11.png)
 
 6.  Finally, change the chart title to **Total Bills** and move it to
     its own chart sheet.
@@ -254,6 +268,23 @@ how they work
 3.  Click on the heading in Column **O** and change the heading to
     **Year Trend**. This is what it should all look like.
 
-    ![](images/tutorial_charts/12.png){: width="75%"}
+    ![](images/tutorial_charts/12.png)
 
-//TODO Finish this Section
+#. Select the new blank cells **O3:O7**.
+#. In the **Inert** tab, find the **Sparklines** group and click **Line**.
+
+    ![](images/tutorial_charts/13.png)
+
+#. The *Location Range* should be pre-populated with the range `$O$3:$O$7`. With the insertion point in the the *Data Range* box, simply select the cells `B3:M7` and that reference should appear in the box. Verify that your screen looks like this image before clicking **OK**.
+
+    ![](images/tutorial_charts/14.png)
+
+#. The result looks like this:
+
+    ![](images/tutorial_charts/15.png)
+
+#. To create the *Data Bars*, select cells `N3:N6` and in the **Home** tab, select **Conditional Formatting**. Then simply select **Data Bars** and choose a style you like. This gives you the ability to visualize data *within* a cell as it relates to data in other cells.
+
+    ![](images/tutorial_charts/16.png)
+
+This concludes the tutorial. Submit the file to the course portal as normal.
