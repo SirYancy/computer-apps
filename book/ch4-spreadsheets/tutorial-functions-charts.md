@@ -118,20 +118,20 @@ saw in a previous tutorial.
 
 2.  The data is very raw. As in [Tutorial 2](https://itech.erickuha.com/book/ch4-spreadsheets/tutorial2-formatting.html), select cells **A1-M1** and click **Merge &amp; Center**. Then add the Title stile to this new cell. It should look like this:
 
-    ![Merge and Centered Title](1-2.png)
+    ![Merge and Centered Title](images/tutorial_charts/1-2.png)
 
 3. Next, select any cell that is part of the data table (**E4**, for example), and then, in the **Insert** tab, click **Table**. You'll notice that this time, Excel mistakenly selects cell A1. To fix this, simply click and drag to select only cells **A2:M6**. Ensure that *"My table has headers"* is checked and click **OK**.
 
-    ![make table](1-3.png)
+    ![make table](images/tutorial_charts/1-3.png)
 
 3. Select a table style that you like and your spreadsheet should look like this. If anything is wrong, *undo everything (Ctrl-z) and start over*.
 
-    ![Formatted](1-4.png)
+    ![Formatted](images/tutorial_charts/1-4.png)
 
 3.  Add a total row and a total column in the way that you wish. Ensure
     that it looks like this:
 
-    ![Total Rows](1-5.png)
+    ![Total Rows](images/tutorial_charts/1-5.png)
 
 
 Now we're going to add some columns for statistics. In particular, the
