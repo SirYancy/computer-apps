@@ -35,8 +35,7 @@ What does each one look like?
 
 A line graphs are really great for showing changes over time. A very
 common example would be to show stock prices changes over time. For a
-fun contemporary look at a line graph, here's the price of BitCoins over
-the last year.
+fun contemporary look at a line graph, here's the price of BitCoins since about 2010.
 
 ![The price of a Bitcoin in USD(\$) over the last year.](images/tutorial_charts/bitcoin.png)
 
