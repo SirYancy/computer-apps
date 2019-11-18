@@ -100,8 +100,8 @@ value is true.
 
     ![](images/advanced/6.png)
 
-4.  In the *Criteria* box, enter a string with your name in quotation
-    marks. In my case, I entered the string "Eric".
+4.  Let's find out how much the seller *Eric* sold. In the *Criteria* box, enter a string with the name in quotation
+    marks. Specifically, you will enter the string "Eric".
 5.  Finally, click in the *Sum\_range* box, and then select the entire
     column of dollar totals. Excel will abbreviate this to
     [Order Total]. Make sure your dialog looks like this before pressing
@@ -110,7 +110,7 @@ value is true.
     ![](images/advanced/7.png)
 
 6.  The total should be the sum of all of the numbers that are in rows
-    with your name! To finish, try to do the same thing with the *Units
+    with the name of the seller you selected! To finish, try to do the same thing with the *Units
     Sold* column.
 
 ### What if?
