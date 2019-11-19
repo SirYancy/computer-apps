@@ -135,11 +135,6 @@ We're going to do two "What if?" scenarios here.
 4.  As we can see, the student is going to need to do pretty well on
     that final to get a B in the class!
 
-**Sales Goals**
-
-1.  Next, we want to calculate some sales goals. Use what you know about
-    goal seek to answer the questions on the sheet.
-
 ### Absolute References
 
 In this one, we're going to get some practice with absolute references.
