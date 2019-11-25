@@ -1,8 +1,8 @@
 --- 
-title: 'Project 2 - Baseball Salaries'
+title: 'Project 3 - Baseball Salaries'
 layout: page
 parent: Chapter 4 - Spreadsheets
-nav_order: 11
+nav_order: 12
 ---
 
 PROJECT - Baseball Salaries

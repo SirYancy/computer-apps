@@ -1,8 +1,8 @@
 --- 
-title: 'Project 3 - Charting the Weather'
+title: 'Project 2 - Charting the Weather'
 layout: page
 parent: Chapter 4 - Spreadsheets
-nav_order: 12
+nav_order: 11
 ---
 
 PROJECT - Charting the Weather
