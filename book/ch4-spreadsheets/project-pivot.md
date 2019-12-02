@@ -26,7 +26,7 @@ Here's how:
 
 4.  Click **Browse**. In the *Save As* dialog, navigate to your
     preferred folder, and then in the *Save as type:* dropdown, select
-    **Excel Workbook (*.xlsx)*\*
+    **Excel Workbook (xlsx)**
 
     ![](images/project_pivot/2.png){: width="75%"}
 
