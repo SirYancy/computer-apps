@@ -13,6 +13,8 @@ In an earlier tutorial, we looked at how you can take a range of data
 and make it into a table. Now, we are going to look at some advanced
 ways in which you can use those tables to make the data fit your needs.
 
+At every step of this tutorial, it is very important to stop and think about what you're doing and what information you are gaining by performing this particular action.
+
 Tutorial
 --------
 
@@ -185,7 +187,7 @@ to turn this essentially one dimensional list of data into a
 two-dimensional matrix which can be sorted, filtered, and visualized in
 a hundred different ways.
 
-1.  Ensure that the cell selection is somewhere in side the data. In the
+1.  Ensure that the cell selection is somewhere inside the data. In the
     **Insert** tab, in the **Tables** group, click on **PivotTable**. In
     the dialog that opens, the defaults should be okay, but look over
     them so that you understand them. Most importantly, we want to
