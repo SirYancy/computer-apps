@@ -22,14 +22,13 @@ TUTORIAL
     answering these questions:
 
     -   What is your name?
-    -   What is your program?
+    -   What is your program/major?
+    -   How experienced are you with computers?
     -   Do you own a general-purpose computer? What kind?
         (Smartphones count)
     -   What do you use it for?
     -   Do you use a computer at work?
     -   What do you use it for?
-    -   On a scale of 1-10, how would you rate your experience with
-        digital technology?
     -   What is one question you have about computers that you'd like answered?
 
     ![This is kind of what we're
