@@ -19,3 +19,4 @@ Table of Contents
 * [Presentation Software]({{ site.baseurl }}{% link book/ch3-presentation/introduction.md %})
 * [Spreadsheets]({{ site.baseurl }}{% link book/ch4-spreadsheets/introduction.md %})
 * [Databases]({{ site.baseurl }}{% link book/ch5-databases/introduction.md %})
+* [The Internet]({{ site.baseurl }}{% link book/ch6-internet/introduction.md %})
