@@ -19,8 +19,6 @@ Here's the list of skills we want to cover:
 <input type="checkbox">&nbsp;Fill Handle <br>
 <input type="checkbox">&nbsp;Basic Charts <br>
 
-Here is the file you will want to use. It has instructions inside.
-
 Tutorial
 --------
 
