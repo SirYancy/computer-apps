@@ -1,11 +1,11 @@
 ---
-title: 'Tutorial 4 - Styles and Themes'
+title: 'Tutorial 5 - Styles and Themes'
 layout: page
 parent: Chapter 2 - Word Processing
 nav_order: 5
 ---
 
-# Tutorial 4 - Styles and Themes
+# Tutorial 5 - Styles and Themes
 
 One of the most important rules when it comes to building professional
 documents is consistency. When you create a heading for a section in

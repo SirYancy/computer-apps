@@ -1,11 +1,11 @@
 ---
-title: 'Tutorial 5 - MLA Style'
+title: 'Tutorial 6 - MLA Style'
 layout: page
 parent: Chapter 2 - Word Processing
 nav_order: 6
 ---
 
-# Tutorial 5 - MLA Style
+# Tutorial 6 - MLA Style
 
 One of the things you'll be asked to do as a college student, is to
 write essays. It's just a fact of life. Do some research and present

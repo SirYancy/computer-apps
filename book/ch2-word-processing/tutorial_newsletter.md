@@ -1,11 +1,11 @@
 ---
-title: 'Tutorial 3.5 - Formatting and Working with Images'
+title: 'Tutorial 4 - Formatting and Working with Images'
 layout: page
 parent: Chapter 2 - Word Processing
 nav_order: 4.5
 ---
 
-# Tutorial 3.5 - More Formatting
+# Tutorial 4 - More Formatting
 
 Continuing our fundamental foray into the world of desktop publishing with Microsoft Word, let's play around with a few more tools while we build a simple newsletter.
 
