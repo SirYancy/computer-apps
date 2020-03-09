@@ -136,7 +136,7 @@ Record Navigation Bar
 
 ### Building the Artist table
 
-Let\'s start simple. We have three tables to construct. The first one we
+Let's start simple. We have three tables to construct. The first one we
 should look into is a table for each artist. Remember, you might have
 several albums by the same artist, and so this is our first clue that
 \"Artists\" need their own table.
@@ -147,14 +147,14 @@ several albums by the same artist, and so this is our first clue that
     > ![5](images/tables/5.png)
 
 2.  Type *ArtistName* as the title of the field and press **Enter**.
-    Note, while it\'s not required, the convention is for all field
-    names to be one word and so a further convention is to use \"camel
-    case\", capitalizing each word, to differentiate them. Like so:
+    Note, while it's not required, the convention is for all field
+    names to be one word and so a further convention is to use "camel
+    case", capitalizing each word, to differentiate them. Like so:
 
     > ![5-6](images/tables/5-6.png)
 
-3.  Next, let\'s rename the *ID* field. **Right-click** on the *ID*
-    title and select **Rename**. Type \"ArtistID\".
+3.  Next, let's rename the *ID* field. **Right-click** on the *ID*
+    title and select **Rename**. Type "ArtistID".
 
     > ![6](images/tables/6.png)
 
@@ -187,8 +187,9 @@ structure:
     ![8](images/tables/8.png)
 
 3.  In the first row\'s **Field Name** cell, type *AlbumID*. In the
-    **Data Type** cell dropdown menu, select *AutoNumber*. Under
-    Description, type *Primary Key*. This sets the field so that you
+    **Data Type** cell dropdown menu, select *AutoNumber*. 
+    
+    Under Description, type *Primary Key*. This sets the field so that you
     never have to give it a value. Every time you create a new record in
     this table, it will automatically take the value of the next
     integer. Note, that if you delete a record, it won\'t fill in the
@@ -216,7 +217,7 @@ structure:
     ![11](images/tables/11.png)
 
 6.  The next field gets the name *ReleaseDate*. Give it the Data Type
-    *Date/Time*, and set *Required* to *Yes*.
+    *Number*,(**NOT DATE/TIME**), and set *Required* to *Yes*.
 7.  Make the other two fields as shown in the table above. Give them the
     description *Foreign Key*, as they will be used to build links to
     the other two tables in our database (later). And make sure they are
@@ -240,12 +241,15 @@ structure:
 
   | Field Name | Data Type  | Description |
   | ---------- | ---------  | ----------- |
-  | GenreID    | AutoNumber | Primary Key |
+  | GenreID    | Number     | Primary Key |
   | GenreName  | Short Text |             |
 
 1.  Like the Artists table, the Genres table has only two fields. The
     name of the genre and its primary key. Build it according to the
     scheme outlined above.
+
+    **NOTE:** The screenshots here all say AutoNumber for this data type. Use Number instead, because it will make populating this table a lot easier later on.
+
 2.  When you are finished, save the table and close it.
 
 ### Saving and compacting your database
@@ -260,7 +264,7 @@ it is smaller and more manageable.
 3.  In the *backstage* view, click the large button that says **Compact
     & Repair**.
 
-That\'s it. Close it and upload your database in this form to the
+That's it. Close it and upload your database in this form to the
 portal. **Note:** It is important that you close it before uploading it.
 Opening a database actually creates a second file in the folder with the
 database file. The database file has the .accdb extension. This new file
