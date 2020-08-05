@@ -8,38 +8,24 @@ nav_order: 10
 What is a Computer?
 ===================
 
-<dl>
-    <dt>
-    application
-    </dt>
-    <dd>
-    An application or app is a piece of software that the user can interact with. In a modern operating system an app is often represented on the screen by a "window". Common software applications include word processors, spreadsheets, video games, and photo editors.
-    </dd>
-    <dt>
-    computer
-    </dt>
-    <dd>
-    A device which can be instructed to perform arbitrary sets of arithmetic and logical operations.
-    </dd>
-    <dt>
-    hardware
-    </dt>
-    <dd>
-    The "bare metal" of a computer. The physical devices and components that make up a computer, including the CPU, the case, the power supply, the mother board, and so on.
-    </dd>
-    <dt>
-    input/output device
-    </dt>
-    <dd>
-    A device that allows the user or other computer systems to interact with the core computer systems. Common examples are the screen, mouse, keyboard, speakers, and hard drive.
-    </dd>
-    <dt>
-    software
-    </dt>
-    <dd>
-    The part of a computer that consists of data or instructions. It is represented in the hardware as electrical impulses. It is intangible, but it can be interacted with using interface devices.
-    </dd>
-</dl>
+
+
+application
+: An application or app is a piece of software that the user can interact with. In a modern operating system an app is often represented on the screen by a "window". Common software applications include word processors, spreadsheets, video games, and photo editors.
+
+computer
+: A device which can be instructed to perform arbitrary sets of arithmetic and logical operations.
+
+hardware
+: The "bare metal" of a computer. The physical devices and components that make up a computer, including the CPU, the case, the power supply, the mother board, and so on.
+
+input/output device
+: A device that allows the user or other computer systems to interact with the core computer systems. Common examples are the screen, mouse, keyboard, speakers, and hard drive.
+
+software
+: The part of a computer that consists of data or instructions. It is represented in the hardware as electrical impulses. It is intangible, but it can be interacted with using interface devices.
+
+
 
 The Story so far
 ----------------
@@ -63,9 +49,8 @@ machines, to robots, to self-driving cars. We carry them around in our
 pockets. We operate them at our jobs. They are in our entertainment
 devices. They even have [internet connected
 toilets](http://www.wired.com/insights/2014/04/toilet-role-internet-things).
-It is estimated that could be around [50
-billion](http://www.statista.com/statistics/471264/iot-number-of-connected-devices-worldwide/)
-devices connected to the internet by 2020.
+The number of internet-connected devices is expected to hit [50 billion](https://techjury.net/blog/how-many-iot-devices-are-there/#gref)
+in 2020. It is possible that this estimate might even be low.
 
 ![A desktop computer](images/desktop_example.jpg)
 
@@ -86,7 +71,7 @@ has millions of components. Some of the most advanced CPUSs in the world
 today sport billions of transistors, each measuring only about 20
 nanometers, many times smaller than the width of a human hair. It is
 impossible for a human to even hold that mental concept in his or her
-mind. So how do we deal with that kind of complexity? Let’s talk about
+mind. So how do we deal with that kind of complexity? Let's talk about
 **interfaces**.
 
 Parts of a Computer

@@ -14,15 +14,15 @@ If you are reading this right now, you are sitting at a computer, or holding one
 * [Worldwide, there are 5 billion searches per day](http://www.smartinsights.com/search-engine-marketing/search-engine-statistics/)
 * It is estimated that the big four internet corporations store 1,200 **petabytes** of information between them.
 
-But the question remains, how does this all fit together? What is all of this information good for? The first thing we want to establish is a mental framework for how all of this fits together.
+But the question remains, how does this all fit together? What is all of this information good for? The first thing we want to establish is a mental framework for how all of this fits together. For our purposes, we'll adopt a hierarchical model for human understanding. So we'll start at the bottom and work our way up.
 
 ## Data
 
 What is data? What's the temperature outside? How many steps did you take today? How many calories do you consume in a day? What's your dog's birthday?
 
-The answers to these questions are all data. Raw facts that don't have context. What does it mean that it's raining? Or that there are 100,000 commercial airline flights every day?
+The answers to these questions are all data. Raw facts that don't have context. What does it mean that it's raining? Or that there are 100,000 commercial airline flights every day? What do all the stats on [Minnesota's covid-19 status site](https://www.health.state.mn.us/diseases/coronavirus/situation.html) mean to us?
 
-Data are facts. Each fact is just a little thing that is true (we hope). Without some sort of context, each one of these facts is not very useful. The temperature at 5pm on the day you were born is a data point. It might be interesting to know something like this, but it doesn't really give you anything to act on. And the big question with information technology is: How does all this data inform how I should act?
+Data are facts. Each fact is just a little thing that is true (we hope). Without some sort of context, each one of these facts is not very useful. The temperature at 5pm on the day you were born is a data point. It might be interesting to know something like this, but it doesn't really give you anything to act on. And the big question with information technology is: How does all this data inform how I should _act_?
 
 ## Information
 
@@ -36,19 +36,19 @@ When we have information coming to us from many different sources over time, we 
 
 A particularly famous definition of knowledge:
 
-> Knowledge is a fluid mix of framed experience, values, contextual information, expert insight and grounded intuition that provides an environment and framework for evaluating and incorporating new experiences and information. It originates and is applied in the minds of knowers. In organizations it often becomes embedded not only in documents and repositories but also in organizational routines, processes, practices and norms
+> Knowledge is a fluid mix of framed experience, values, contextual information, expert insight and grounded intuition that provides an environment and framework for evaluating and incorporating new experiences and information. It originates and is applied in the minds of knowers. In organizations it often becomes embedded not only in documents and repositories but also in organizational routines, processes, practices and norms.
 
-We have a greater understanding of the world because we have taken lots and lots of information over time and, applied our values to it, and used to to inform how we act as humans.
+We have a greater understanding of the world because we have taken lots and lots of information over time, applied our values to it, and used to to inform how we act as humans.
 
 ## Wisdom
 
-Many philosophers have debated what wisdom is. And it's a difficult concept to pin down. If we think of knowledge as "know-how", then wisdom can be thought of us "know-why". Some call it "integrated knowledge" or "information made super-useful", "common sense", "the ability to make sound judgments and decisions apparently without thought." It's knowledge that has been internalized and made part of who we are. It's giving thought to why things are the way they are, and out place in the cosmos.
+Many philosophers have debated what wisdom is. And it's a difficult concept to pin down. If we think of knowledge as "know-how", then wisdom can be thought of as "know-why". Some call it "integrated knowledge" or "information made super-useful", "common sense", "the ability to make sound judgments and decisions apparently without thought." It's knowledge that has been internalized and made part of who we are. It's giving thought to why things are the way they are, and our place in the cosmos.
 
 In Ojibwemowin, Nibwaakaawin is Wisdom. To cherish knowledge is to know wisdom. This is one of the Seven Grandfather Teachings. And it sits at the top of the hierarchy of human understanding. It is data, information, and knowledge from everywhere processed, analyzed, and internalized so that we can truly understand the world around us.
 
 ## The Pyramid
 
-This framework is often called DIKW. It's particularly relevant to the study of information technology because it gives us a sense of where, in the realm of human experience, this study resides.
+This hierarchical framework of human understanding is often called DIKW. It's particularly relevant to the study of information technology because it gives us a sense of where, in the realm of human experience, this study resides.
 
  ![DIKW Pyramid](images/dikw.png)
 
@@ -56,5 +56,4 @@ This course is about information technology in general, and about the way we int
 
 Periodically, throughout this course, we will attempt to take a step back and look at what we're doing in context, and in this way, we can inform ourselves, and try to use information we have access to as a tool to make ourselves and the world just a little bit better.
 
-Let's go exploring.
-
+![Exploring](images/exploring.jpg)
