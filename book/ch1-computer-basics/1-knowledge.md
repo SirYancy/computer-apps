@@ -14,7 +14,7 @@ If you are reading this right now, you are sitting at a computer, or holding one
 * [Worldwide, there are 5 billion searches per day](http://www.smartinsights.com/search-engine-marketing/search-engine-statistics/)
 * It is estimated that the big four internet corporations store 1,200 **petabytes** of information between them.
 
-But the question remains, how does this all fit together? What is all of this information good for? Let's start at the bottom.
+But the question remains, how does this all fit together? What is all of this information good for? The first thing we want to establish is a mental framework for how all of this fits together.
 
 ## Data
 
