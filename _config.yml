@@ -29,8 +29,10 @@ github_username: SirYancy
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
-theme: just-the-docs
+
+remote_theme: pmarsceill/just-the-docs 
 
 color_scheme: "dark"
 
