@@ -81,11 +81,14 @@ Algebra
 
 Algebra's earliest roots go back to the Babylonians and many forms of
 algorithmic computation (or evidence of it) popped up in places all over
-the world from Hellenic Greece to Egypt to South America. But it was a
-Persian mathematician named *Omar Khayyam* who laid the foundations for
-algebraic geometry in 1070. European Algebra got a kick in the pants
-when an Italian mathematician named Fibonacci revived European algebra
-in the 13th century.
+the world from Hellenic Greece to Egypt to South America. But it was a couple of
+Persian mathematicians who laid the ground work for what was to come later. [Muhammad ibn Musa al-Khwarizmi](https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi) in 820 CE is the namesake of the modern word **algorithm**, which we define as a sequence of steps used to complete a particular task. And then, [Omar Kayyam](https://en.wikipedia.org/wiki/Omar_Khayyam), a couple hundred years later, laid the foundations for algebraic geometry . European Algebra got a kick in the pants
+when an Italian mathematician named Fibonacci revived European algebra in the 13th century by following the work of al_Khwarizmi and Kayyam.
+
+Calculators
+-----------
+
+From the 1600s to about the 1800s a couple of great thinkers built working calculators. Blaise Pascal built on in the 1620s that could add and subtract, and Gottfried Leibniz built one that could also multiply and divide in the 1700s. Both used gears extensively in their operation. Neither of these was a commercial success and you might have a think about why that was the case. A hint: about 150 or so years later a very similar model to Leibniz gained widespread popularity.
 
 ![image](images/diff_eng.jpg)
 
@@ -94,20 +97,13 @@ The Difference Engine
 
 [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) and
 [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace) are
-interesting figures in the history of computing, though in the end,
-their actual effect on the future trajectory of the study of algorithmic
-computing is probably pretty negligible. Most of their work occurred
-during 1830s. They get lots of credit for some of their ideas though,
-even if they never saw the light of day until very recently. Babbage
-designed a device that he called the *Difference Engine* which was a
-complex mechanical machine with over 18,000 parts which could be used to
-solve polynomial equations. It was, however, never built. Ada Lovelace,
-the daughter of the Romantic poet Lord Byron and a brilliant
-mathematician, had a correspondence with Babbage and, after seeing his
-plans for the Difference Engine, developed what is widely regarded as
-the first computer program, an algorithm which the Difference Engine
-could use to calculate the sequence of [Bernoulli
-numbers](https://en.wikipedia.org/wiki/Bernoulli_number).
+interesting figures in the history of computing. Babbage designed (but never actually built) a device called the [Analytical Engine](https://en.wikipedia.org/wiki/Analytical_Engine) which had a lot of the same features as a modern computer. It had a control unit and memory and could print. His designs had errors in them and it was the Countess of Lovelace who saw his drawings and suggested corrections for these errors. She also wrote programs that could be run on the Analytical Engine and is credited with being the world's first programmer. She was also the first person to propose the notion of repeating a series of instructions on the Analytical Engine, a notion that today we call "looping" and is an absolutely fundamental tool in algorithm development.
+
+In the end, their actual effect on the future trajectory of the study of algorithmic
+computing is somewhat negligible since it could never actually be built.
+
+The Census
+----------
 
 The next really significant development in the progress of computing
 machines happened in the years leading up to the 1890 census. A man
@@ -130,19 +126,13 @@ Alan Turing
 -----------
 
 **Alan Turing (1912-1954) -** Along comes perhaps the most famous
-computer scientist of all time, [Alan
-Turing](https://en.wikipedia.org/wiki/Alan_Turing). He is perhaps most
+computer scientist of all time, [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing). He is perhaps most
 famous for his work at Bletchley Park cracking the German Enigma Code
 during World War II. However, he also laid down considerable theoretical
 groundwork for the field of computer science such that he is often
-regarded as the father of theoretical computer science. His seminal
-paper in 1946 was the first detailed design of a stored-program
-computer. Today, we call his concept a [Turing
-Machine](https://en.wikipedia.org/wiki/Turing_machine). He wrote another
-influential work on the topic of artificial intelligence and proposed a
-test (now called the [Turing
-Test](https://en.wikipedia.org/wiki/Turing_test) to create a standard
-for a machine to be called "intelligent."
+regarded as the father of theoretical computer science. He did fundamental work on "computability theory," showing what sorts of things we should be able to do with computers and, more importantly, the sorts of things that we would never be able to do with computers.
+
+He also did some foundational work on theoretical artificial intelligence, formulating what today we call the "Turing Test" which can help us decide if a computer is "intelligent" or as some people phrase it "sentient".
 
 Turing is one of the most revered figures in the field of computer
 science and his story ends tragically as it was revealed that he was
@@ -289,15 +279,14 @@ Berners-Lee invented four main technologies:
 The Smartphone revolution
 =========================
 
-There were many attempts as, as early as the 90s, to build a hand-held
-productivity device and while some of them were pretty neat in their
+There were many attempts, as early as the 90s, to build a hand-held
+productivity device, and while some of them were pretty neat in their
 time, none of them was so immensely useful that it would ever become
 ubiquitous. Until the smartphone. It wasn't [the
 first](https://en.wikipedia.org/wiki/IBM_Simon), but in 2007 a device
 called the iPhone hit shelves and changed...everything.
 
-Let me just get real with you here, reader. This is written as someone
-who does not and never will own an iPhone. The effect of the iPhone on
+The effect of the iPhone on
 modern society has been so profound it will probably take us decades to
 even come to terms with its existence. Our relationship with
 *information* has changed. Our relationships with *each other* have
@@ -313,12 +302,11 @@ technology was already there and the time was right for it. Apple was
 lucky and very, very good at marketing.
 
 This is not to *understate* the importance the iPhone either. It's the
-first successful iPhone with the exception of the Blackberry, thought
-that seemed to be isolated to business people. And just stop and think
+first highly successful smartphone. And just stop and think
 about the profound ramifications of having a device in the palm of your
 hand which is essentially a direct link to the sum-total of
 (effectively) all of human knowledge. Every language. Every book. Every
-piece of music. Every movie or TV show. All of it can be access with a
+piece of music. Every movie or TV show. All of it can be accessed with a
 smartphone.
 
 Notable machines and other developments
