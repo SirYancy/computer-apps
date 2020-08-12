@@ -15,3 +15,4 @@ Table of Contents
 ---
 
 * [Computer Basics]({{ site.baseurl }}{% link book/ch1-computer-basics/introduction.md %})
+* [The Internet]({{ site.baseurl }}{% link book/ch2-internet/introduction.md %})
