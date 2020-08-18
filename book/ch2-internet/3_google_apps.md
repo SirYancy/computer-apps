@@ -8,6 +8,8 @@ nav_order: 3
 Google Accounts
 ===============
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p27TUxvVmYo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Google has positioned itself very well in the electronic world. Not only are they a powerhouse search engine, but they have cornered the market in online productivity, positioned themselves as one of the most important hosting platforms, domain registrars, and boast a massive library of software that you can use, generally for free (think about what this means).
 
 For our purposes, we will use a Google account so that we can gain access to their productivity apps, that is Docs, Sheets, Slides, and Sites. Let's get started.

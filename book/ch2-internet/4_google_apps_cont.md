@@ -8,6 +8,8 @@ nav_order: 4
 Google Account Features
 =======================
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p27TUxvVmYo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 So you've got a Google account. What now? There are a few things you can do at your leisure and we will not walk you through all of it, but for now, take a look around this home screen. If you've navigated away from it, you can return there by following [this link](https://myaccount.google.com/).
 
 ![Account Home Screen](images/g2-1.png)
