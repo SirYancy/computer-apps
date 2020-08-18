@@ -8,6 +8,8 @@ nav_order: 60
 Windows 10
 ==========
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8uXAjoRnMVs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Microsoft Windows 10 is one of the operating systems that we will use in our
 examples throughout this text. Windows 10 is the industry standard in many offices, organizations, and workplaces. Windows has a long and storied history. Some versions are better than others. Windows 10 is generally considered to be the last version of Windows as Microsoft has opted to transition to what's called a "rolling release" model. New versions will simply be patched into an existing Windows installation, instead of requiring full system upgrades. Let's take a look around.
 
