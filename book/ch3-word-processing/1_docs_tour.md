@@ -7,12 +7,14 @@ nav_order: 1
 
 ![Google Docs Logo](images/docs_logo.png){: width="10%"}
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FiEMvSUIT6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Google Docs is a word processing application that can help you create professional documents, fliers, resumes, and more.
 
 How to create a document
 ------------------------
 
-1. In the Google Drive interface, click **New** and select **Google Docs**:
+1. In the [Google Drive](https://drive.google.com) interface, click **New** and select **Google Docs**:
     ![Drive Menu](images/tour/create_new_doc_1.png){: width="50%"}
     ![New Google Doc](images/tour/create_new_doc_2.png){: width="50%"}
 

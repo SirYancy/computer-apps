@@ -38,7 +38,7 @@ If you are using Windows, one thing that you might want to do is install Google 
 1. First, in the Google Accounts interface, click the menu button on the top right and select the Google Drive app. Alternately, you can simply navigate to [drive.google.com](https://drive.google.com).
 
     ![drive icon](images/g2-2.png){: width="50%"}
-1. Click the cog in the upper right corner and select **Get Drive for desktop**. Alternately, if this is your first time here, you might see the blue box in the bottom left corner as seen in the screenshot above. This does the same thing.
+1. Click the cog in the upper right corner and select **Get Drive for desktop**. Alternately, if this is your first time here, you might see the blue box in the bottom left corner that suggests installing the desktop app. This does the same thing.
 
     ![Get Drive for Desktop](images/g2-2.png){: width="50%"}
 1. This will download a file to your computer. Simply run the file (click or double-click it, depending on your platform) and it will walk you through the entire installation. It will take you step by step so you can customize the installation. The defaults are all very reasonable, so typically, you can just keep click **next** and it should work just fine. If you have any trouble with this, ask the instructor.
