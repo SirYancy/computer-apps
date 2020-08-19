@@ -1,5 +1,5 @@
 ---
-title: Creating, Editing, and Saving Documents
+title: Tutorial 1 - Creating, Editing, and Saving Documents
 layout: page
 parent: Chapter 3 - Word Processing
 nav_order: 2
