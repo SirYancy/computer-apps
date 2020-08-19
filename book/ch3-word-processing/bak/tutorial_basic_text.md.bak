@@ -7,18 +7,6 @@ nav_order: 3
 
 # Tutorial 2 - Basic Text Editing
 
-<style>
-pre {
-    overflow-x: auto;
-    white-space: pre-wrap;
-    white-space: -moz-pre-wrap;
-    white-space: -pre-wrap;
-    white-space: -o-pre-wrap;
-    word-wrap: break-word;
-    background-color: 808080;
-}
-</style>
-
 Word processing is, at its most fundamental, the process of manipulating
 text. Microsoft Word is a highly robust, feature-rich word processor.
 However, in order to get at the most advanced features, we should take a
