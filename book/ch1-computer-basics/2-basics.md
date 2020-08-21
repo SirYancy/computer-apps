@@ -25,6 +25,9 @@ memory
 software
 : The part of a computer that consists of data or instructions. It is represented in the hardware as electrical impulses. It is intangible, but it can be interacted with using interface devices.
 
+interface
+: A place at which two systems interact with each other.
+
 application
 : An application or app is a piece of software that the user can interact with. In a modern operating system an app is often represented on the screen by a "window". Common software applications include word processors, spreadsheets, video games, and photo editors.
 
@@ -50,7 +53,7 @@ A computer is a shockingly complex machine. Even the simplest computer has milli
 Parts of a Computer
 ===================
 
-There are four main components that a computer needs to operate and they are all separated by interfaces. An interface in computer science is the place where two systems interact with each other. For example, the interface between the user and the application that the user is working on might consist of a keyboard, a mouse, and a display.
+There are four main components that a computer needs to operate and they are all separated by interfaces. An **interface** in computer science is the place where two systems interact with each other. For example, the interface between the user and the application that the user is working on might consist of a keyboard, a mouse, and a display.
 
 **The User**
 
@@ -79,10 +82,9 @@ How a computer works
 
 The modern concept of a computer follows what’s known as the Von Neumann architecture. What this means is actually pretty simple at its most fundamental. There are three basic components: The computer itself, input devices, and output devices. Let's look at all three of these in turn.
 
-[John von Neumann](https://en.wikipedia.org/wiki/Von_Neumann_architecture), in 1945, conceived of a very simple architecture which we still use today. At its core, a computer has two main components, the Central Processing Unit (the CPU), and a Memory Unit which today we typically call RAM. A computer stores a "program" in memory (RAM), and then the CPU asks the memory unit for the first step of the program (known as an "instruction" and then executes it. It returns any result to memory and then asks for the next step. Over and over until the program ends. Each of these components can be broken further up into sub-components until we get all the way down to the most fundamental parts of the CPU, the transistors, which can be so small that more than four million of them could fit in the period at the end of this sentence.
+[John von Neumann](https://en.wikipedia.org/wiki/Von_Neumann_architecture), in 1945, conceived of a very simple architecture which we still use today. At its core, a computer has two main components, the Central Processing Unit (the CPU), and a Memory Unit which today we typically call RAM. A computer stores a "program" in memory (RAM), and then the CPU asks the memory unit for the first step of the program (known as an "instruction") and then executes it. It returns any result to memory and then asks for the next step. Over and over until the program ends. Each of these components can be broken further up into sub-components until we get all the way down to the most fundamental parts of the CPU, the transistors, which can be so small that more than four million of them could fit in the period at the end of this sentence.
 
 Inside the Computer
-
 ===================
 
 ![A Motherboard](images/motherboard.png)
@@ -96,7 +98,7 @@ Input/Output
 
 ![Common Interface Devices](images/mouse-keyboard.jpg)
 
-It is a pretty poor computer that can't do anything with the result of some operation or computation. And so, almost all computers have some way for a user or other agent to interact with it. The modern home computer might have dozens of input/output devices attached to it. These allow the user to interact with whatever program (or programs) are running on the computer. Some are obvious, but others are a bit more subtle.
+It is a pretty poor computer that can't do anything with the result of some operation or computation. And so, almost all computers have some way for a user or other agent to interact with it. The modern home computer might have dozens of input/output devices attached to it. These allow the user to interact with whatever program (or programs) are running on the computer. These devices are what make up the **interface** between the user (you) and the computer's hardware and software. Some are obvious, but others are a bit more subtle.
 
 **Input Devices**
 

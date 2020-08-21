@@ -1,12 +1,12 @@
 --- 
-title: 'More About the Internet'
+title: 'POTS and Packets'
 layout: page
 parent: Chapter 2 - The Internet
 nav_order: 5
 ---
 
-History of the Internet
-=======================
+POTS and Packets
+================
 
 Discussion Questions
 --------------------
