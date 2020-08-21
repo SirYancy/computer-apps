@@ -25,6 +25,9 @@ memory
 software
 : The part of a computer that consists of data or instructions. It is represented in the hardware as electrical impulses. It is intangible, but it can be interacted with using interface devices.
 
+interface
+: A place at which two systems interact with each other.
+
 application
 : An application or app is a piece of software that the user can interact with. In a modern operating system an app is often represented on the screen by a "window". Common software applications include word processors, spreadsheets, video games, and photo editors.
 
@@ -50,7 +53,7 @@ A computer is a shockingly complex machine. Even the simplest computer has milli
 Parts of a Computer
 ===================
 
-There are four main components that a computer needs to operate and they are all separated by interfaces. An interface in computer science is the place where two systems interact with each other. For example, the interface between the user and the application that the user is working on might consist of a keyboard, a mouse, and a display.
+There are four main components that a computer needs to operate and they are all separated by interfaces. An **interface** in computer science is the place where two systems interact with each other. For example, the interface between the user and the application that the user is working on might consist of a keyboard, a mouse, and a display.
 
 **The User**
 
