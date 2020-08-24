@@ -10,6 +10,8 @@ We are going to create, edit, and save a document. This document will be submitt
 TUTORIAL
 ========
 
+**Do not do this tutorial as it is currently formulated! It will be revised!**
+
 1. Open your Google Drive and create a new Google Doc as demonstrated in the [previous section](1_docs_tour.md).
 1. Click on the document title and change it to *introduction*.
     ![Change title](images/tutorial1/1.png){: width="50%}
