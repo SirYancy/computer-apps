@@ -1,9 +1,14 @@
 --- 
-title: 'Build Your First Website'
+title: 'TUTORIAL - Build Your First Website'
 layout: page
 parent: Chapter 2 - The Internet
 nav_order: 7
 ---
+
+How to Build a Website with Google Sites
+========================================
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WuSmPRQZSJw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Building a simple website these days is quite straightforward. It is also something that a reasonably tech-savvy person might be called upon to do on occasion, even if one is not a professional Web developer. If you have a basic command of a web browser, a word processor, and confidence moving files around, you will be able to build something that looks professional and attractive.
 
@@ -37,11 +42,11 @@ Click the link to go to [Google Sites](https://sites.google.com). Create an acco
 1. The page is now live and you can view it clicking the arrow next to the Publish button and selecting **View published site**.
     ![View Site](images/sites10.png)
 1. Since you now have a published web page, you may want to make revisions. You can edit the site as much as you like and it will save the changes you make, however, any changes you make will not appear until you press **Publish** again. Let's try this: at the bottom of your text, add something like "For more information, click here". Now, in another browser tab, find some reference that your hypothetical reader might find useful (Wikipedia, for example). And highlight the URL at the top of the browser. Press **Ctrl-C** to copy it, or right click the highlighted URL and click "Copy".
-    ![Get a URL for another resource](sites11.png)
+    ![Get a URL for another resource](images/sites11.png)
 1. The URL is now in your system clipboard. Return to the tab with your web page editor and highlight some relevant text, like the word "here". Next, click the chain icon to create a link.
-    ![Creating Link](sites12.png)
+    ![Creating Link](images/sites12.png)
 1. In the dialog that opens, paste the URL into the **Link** box (**Ctrl-V** or right click and select **paste**) and click Apply.
-    ![Adding URL](sites13.png)
+    ![Adding URL](images/sites13.png)
 1. Your page is finished for now. Click **Publish** once again. It will show you a comparison between what's currently published and your draft. Click **Publish** one final time and view the resulting web page!
-    ![Final Product](sites14.png)
+    ![Final Product](images/sites14.png)
 1. Copy and paste the URL in the browser bar into the assignment on the course portal on Canvas to turn in the assignment.
