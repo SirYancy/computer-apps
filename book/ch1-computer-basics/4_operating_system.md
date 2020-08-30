@@ -75,20 +75,10 @@ Program Execution
 
 An OS provides interface for programs written by programmers to access hardware so that they can run. In a way, what the programmers of an OS do is create a cushion between the program and the hardware. It does all of the hard stuff for us. It makes the job of programming a computer easier, and makes it easier for the user to operate. Imagine you are driving a car. You really have only a few basic controls. A steering wheel, a couple pedals, a gear shifter, and some signalling devices. You don't have to keep an eye on the engine idle speed or the oxygen mix in the fuel injector. All you have to do is point the car in the direction you wish to travel. Likewise, the OS creates an interface for a computer program to interact with hardware.
 
-Resource management
--------------------
-
-A computer has limited resources. In today's high-tech world full of powerful computers, there are likely a lot of resources. But that just means that people are writing programs that use more and more resources. Somehow, the computer has to decide which programs get which resources. How much memory should this program be allocated? How many CPU cycles should that program get to use? And so on. The operating system is what sets up all of the rules for this and does all of the allocating. In fact, the modern operating system does this so efficiently that each app can behave as though it has unlimited resources at its disposal.
-
-Multitasking
-------------
-
-A CPU, by design, is only physically able to execute one instruction at a time. So if a computer is running more than one program at a time, it must have a way of scheduling when each program gets to access the CPU. In today's computers, each program might get access to the CPU for milliseconds at a time, and these changes of priority can happen at lightning speeds, but somebody has to take care of all of that scheduling. And that's the operating system. 
-
 File System
 -----------
 
-![A Hard Drive](images/hard_drive.jpg)
+![A Hard Drive](images/hard_drive.jpg){: width="25%"}
 
 In computer terminology, memory (RAM) is the component that keeps track of all of the things that a computer is doing right now. Once you turn off the computer, all of the RAM is emptied out. All of it. And so, there has to be a system for long-term storage. Computers use pieces of hardware called hard drives to store information for long periods of time. It stores this information in discrete pieces of data called **files**. An OS manages files using a special piece of software called a **file system**. The file system is the software which allows the OS to store, organize, and retrieve data on a storage device.
 
@@ -115,6 +105,8 @@ User Interface
 ![The WIMP Interface](images/desktop_windows.png)
 
 Perhaps most importantly for this class, the Operating System provides a user interface. Specifically, most modern OSs provide what's called a Graphical User Interface, or GUI (pronounced "gooey"). Established a long time ago (in the 70s), this interface usually adheres to a "desktop" metaphor. The idea is to simulate the surface of a desk, where you can move documents around, look through file cabinets, and interact with your work. This "desktop" interface is called a WIMP interface, which stands for **W**indow, **I**con, **M**enu, **P**ointer. So each of these is essential to that experience. The GUI uses windows to display each active application, icons to signify applications that are available or files that can be opened, Menus to access features and tools, and a pointer controlled by a mouse to point to, activate, and interact with each of these.
+
+It will also usually provide useful and intuitive tools for a user to locate apps that are installed on the system and track apps and processes that are running. There is a myriad of other ways that a user can configure, manage, and customize the operating system so that it works for each user's unique needs and desires.
 
 What Operating System Do I Have?
 ================================
