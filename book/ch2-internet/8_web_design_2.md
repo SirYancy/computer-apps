@@ -74,6 +74,25 @@ Occasionally, there are some sites that have no clear sense of organization. The
 
 It is certainly the case that many websites will embody two or more of these types of organizational structures. A site might be primarily hierarchical, but also have some pages that are linked in specific linear progressions, like the LLTC website which has a sequences of pages you have to progress through to apply to the college. Or Wikipedia which is largely a shallow hierarchy, but also has a distinctly random web organization since many pages are cross-linked to each other, sometimes in many ways.
 
+## Design for an Audience
+
+While you're designing a website, be sure to consider who your target audience is and use colors and fonts appropriately. Consider the following websites and their target audiences. Who is each one targeted at and how do the elements of that page and the overall design reflect their targeting?
+
+* [PBS Kids](https://pbskids.org/)
+* [Nickelodeon](https://www.nick.com/)
+* [Teen Vogue](https://www.teenvogue.com/)
+* [AARP](https://www.aarp.org/)
+
+What do you notice? How are colors used? How are fonts and images used? What about layouts and buttons? Notice that in the sites designed for kids, there are lots of bright colors with big buttons and simple interfaces. A site designed for young adults has a sleek modern look with an overall black and white theme with pictures and headlines but you have to click through to find content. Sites for older users have a tendency to use larger fonts, light or even white backgrounds, well-defined images, and more text on the home page. Indeed, it reads more like a newspaper.
+
+## Color Schemes
+
+An overlooked but highly important decision that should be made early in the design process, before any content is ever generated, is selecting a color scheme for the website. Now, if you're using pre-defined templates, sometimes these decisions are made for you. But good templates almost always have a way to swap out the existing default color scheme for your own. Let's get a quick overview of colors and how they work in web design (or any kind of design, for that matter).
+
+### The color wheel
+
+![HSV Color Circle](images/Hsv_color_circle.png)
+
 http://paletton.com/
 
 https://color.adobe.com/
