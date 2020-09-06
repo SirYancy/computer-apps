@@ -17,13 +17,11 @@ TUTORIAL
     ![Change title](images/tutorial1/1.png){: width="50%}
 1. In the document, type out a brief introduction for youself answering these questions:
     - What is your name?
-    - What is your program/major?
-    - How experienced are you with computer?
     - Do you own a general-purpose computer? What kind? (Smartphones count)
     - What do you use it for?
     - Do you use a computer at work?
     - What do you use it for?
-    - What is one question you have about computers that you'd like answered?
+    - What is one question you have about computers that you'd like answered? (And don't say, "I don't have any questions!")
     ![Example Answers](images/tutorial1/2.png){: width="50%}
 1. You have a couple of different options when it comes to saving a Google Doc. If you just want it to be saved on your Google Drive (which will be the easiest way to submit it!) then you're already finished with this assignment! Google Docs automatically saves the document every time you make an edit. *And* it keeps a record of all edits made to the document, which can be very handy.
 
