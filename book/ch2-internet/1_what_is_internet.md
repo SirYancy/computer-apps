@@ -10,7 +10,7 @@ What is the Internet?
 
 The Internet is a world-spanning network of computers. A variety of wired and wireless technologies all working on concert with each other to build a system where information can be shared between any number of machines separated by globe-spanning distances. There are even internet-connected devices in outer space. Billions of people use the Internet every day to find news, recipes, cat pictures, and election results. We watch videos on YouTube to learn how to fix our cars. We order products from our phones and they are delivered to our homes in a few days.
 
-So what is it reall? It's hard to talk about what the Internet *is*, without talking about how it works.
+So what is it really? It's hard to talk about what the Internet *is*, without talking about how it works.
 
 How does the Internet Work?
 ---------------------------

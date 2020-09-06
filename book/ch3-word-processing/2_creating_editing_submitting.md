@@ -7,6 +7,8 @@ nav_order: 2
 
 We are going to create, edit, and save a document. This document will be submitted to the class portal for grading.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nrfxw13r-EA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 TUTORIAL
 ========
 
