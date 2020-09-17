@@ -8,6 +8,8 @@ nav_order: 6
 Tutorial 6 - MLA Style
 ======================
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kxCEp7b3ovg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 One of the things you'll be asked to do as a college student, is to
 conduct research, analyze it, and then compile your findings into an essay or paper. It's just a fact of life. As part of this, you'll be asked to adhere to some formal
 style guide. There are a number of style definitions out there. If
@@ -147,21 +149,32 @@ We are going to begin this process by installing an Add-on to Google Docs.
 
     ![Second in-text citation](images/tutorial5/15.png)
 
-1. 
+1. Next, we want to add an article to our bibliography list. In the EasyBib interface and then in the search box, type "The Rise of Big Data":
 
- 
+    ![Last source](images/tutorial5/16.png)
+
+    In the search results, scroll down until you find this entry and **Select** it:
+
+    ![Select this source](images/tutorial5/16.png)
+
+1. Near the bottom of page 2, find the paragraph that ends "...money and time." and inser the following in-text citation:
+
+    <pre>
+    (Culkier, Mayer-Schoenberger)
+    </pre>
+
+    ![Source 3 in-text citation](images/tutorial5/17.png)
+
+1. Finally, let's insert our Bibliography. Move the insertion point to the very end of the document and press **Ctrl-Enter** on the keyboard. This will create a page break. Alternately, you can use the following menu tool: **Insert&gt;Break&gt;Page Break**.
+
+    ![Create a page break](images/tutorial5/18.png)
+
+1. In the EasyBib interface, verify that the style is MLA 8th Edition. Next, click the red button that says **Add Bibliography to Doc**. And observe the result.
+
+    ![Add bibliography](images/tutorial5/19.png)
+
 ### Conclusion
 
-That's it. You've formatted it according to MLA style. There are a few
-other cited sources in this document that deserve citations, however,
-we'll leave it to you to find out what they are and make that judgement
-call. Save it and turn it in on the class portal.
+It's important to note that EasyBib is not a solution to all of your citation problems. It's a fairly limited tool in some respects. It can't do more complex citations for things such as films and other media. However, if your source set is simple, and the sources are searchable on [WorldCat](https://www.worldcat.org/), you may find that EasyBib can simplify the process of creating citations. There are other more sophisticated citation generatation tools, such as [Zotero](https://www.zotero.org/), but they often require tutorials in and of themselves and I leave it to you to discvoer their features and uses.
 
-
-
-Culkier, Kenneth Neil and Viktor Mayer-Shoenberger. "The Rise of Big Data: How It's Changing the Way We Think About the World." June 2013. Foreign Affairs. Web. 27 September 2015.
-Austrian, Geoffrey D. Herman Hollerith Forgotten Giant of Information Processing. Columbia Univ. Press, 1982. 978-0231051460
-Pugh, Emerson W. Building IBM: Shaping an Industry and Its Technology. MIT Press, 1995. 
-978-0262512824
-
-
+Submit this assignment to Canvas and you are done.
