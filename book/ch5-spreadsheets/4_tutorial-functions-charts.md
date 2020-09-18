@@ -8,7 +8,9 @@ nav_order: 7
 TUTORIAL 4 - Functions and Basic Charts
 =======================================
 
-It's not time to look at how we can visualize data. Let's create some
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p7BtCknQruk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+It's now time to look at how we can visualize data. Let's create some
 charts!
 
 For this tutorial, we'll look at some basic charting as well as some
@@ -104,38 +106,48 @@ correlation can possibly be causal. For some entertaining spurious
 scatter plots, check out [this
 website](http://www.tylervigen.com/spurious-correlations).
 
-Tutorial
+TUTORIAL
 --------
 
-We're going to take another look at the yearly bills worksheet that we
-saw in a previous tutorial.
+We'll take a look at the yearly bills for a fictitious household
 
-1.  Download the [start
-    file](https://itech.erickuha.com/book/ch4-spreadsheets/res/charting_start.xlsx)
+1. First copy the [start file](https://bit.ly/3hHPklB) to your Google Drive. Rename it "Bills Tutorial". Now, take a look around to get a feel for what's here.
 
-    ![The Start](images/tutorial_charts/1.png)
+    ![Initial File](images/tutorial4/1.png)
 
-2.  The data is very raw. As in [Tutorial 2](https://itech.erickuha.com/book/ch4-spreadsheets/tutorial2-formatting.html), select cells **A1-M1** and click **Merge &amp; Center**. Then add the Title stile to this new cell. It should look like this:
+    There is a title in cell A1, a set of column headings that correspond to the months of the year, and the row titles which correspond to the individual bills that were paid. The actual tabular data are the dollar amounts paid each month to each utility.
 
-    ![Merge and Centered Title](images/tutorial_charts/1-2.png)
+1. The data is very raw. So let's start formatting it so that it looks a bit nicer. Select cells **A1:M1**. Then click the **Merge** tool, and then the **Center** the text with the **Alignment** tool.
 
-3. Next, select any cell that is part of the data table (**E4**, for example), and then, in the **Insert** tab, click **Table**. You'll notice that this time, Excel mistakenly selects cell A1. To fix this, simply click and drag to select only cells **A2:M6**. Ensure that *"My table has headers"* is checked and click **OK**.
+    ![Merge and Center](images/tutorial4/2.png)
 
-    ![make table](images/tutorial_charts/1-3.png)
+1. Sheets does not have text styles like Docs does, so any styling must be manually applied and then copied with the format painter to maintain consistency. So, with the title still selected, let's make it **bold** and then increase the size to **18 pt**.
 
-3. Select a table style that you like and your spreadsheet should look like this. If anything is wrong, *undo everything (Ctrl-z) and start over*.
+    ![Bold and increase font size](images/tutorial4/3.png)
 
-    ![Formatted](images/tutorial_charts/1-4.png)
+1. Now, to format the table itself, first, let's select the heading row, which is row 2. Then, make the text **bold** and **center** it:
 
-3.  Add a total row and a total column in the way that you wish. Ensure
-    that it looks like this:
+    ![Table Headings](images/tutorial4/4.png)
 
-    ![Total Rows](images/tutorial_charts/1-5.png)
+1. Next, let's add some nice styling to the table with banded rows. Select cells **A2:M6**:
 
+    ![Select the table cells](images/tutorial4/5.png)
 
-Now we're going to add some columns for statistics. In particular, the
-**AVERAGE()**, **MAX()**, **MIN()** functions and a "percent of total"
-column. This way we can get some more data to include in our charts.
+1. In the **Format** menu, select **Alternating Colors**:
+
+    ![Add alternating colors](images/tutorial4/6.png)
+
+1. In the Alternating Colors sidebar, which pops up, you may select whichever color scheme you wish. Click **Done**.
+
+    ![Alternating Colors Dialog](images/tutorial4/7.png)
+
+1. Finally, you may notice now that the contrast is poor in the column headings. Selec the heading row (**Row 2**) again, and change the text color to **White**.
+
+    ![Change Heading Color](images/tutorial4/8.png)
+
+### Statistical Functions
+
+Next, let's add some columns and a row to do some statistical calculations. We want totals, but we could also add **AVERAGE()**, **MIN()**, and **MAX()** functions. This will give us more data that we can include in our charts.
 
   | Function  | Purpose                                                    |
   | -         | -                                                          |
@@ -143,37 +155,58 @@ column. This way we can get some more data to include in our charts.
   | MAX()     | Finds the highest number in a range of cells               |
   | MIN()     | Finds the lowest number in a range of cells                |
 
-### Getting started
 
-1.  In cell **O2**, enter the new column heading *AVERAGE*. Hit
-    **ENTER**.
-2.  In cell **O3**, enter the average function. Type =AVERAGE(, then
-    highlight the range **B3:M3**. Make sure you do not include the
-    average column. Notice that when you hit enter, the entire column
-    fills with averages. Excel has intelligently predicted what you are
-    trying to do as a consequence of formatting the data as a table.
-    Adjust the number of decimal places shown so it looks nice.
+1. Select **Cell N2**. Type the word **Total**. Then select **Cell A7** and type the word **Total**. Notice how the cell formatting automatically updates accordingly.
 
-    ![](images/tutorial_charts/2.png)
+    ![Adding total row and column](images/tutorial4/9.png)
 
-3.  Follow the same process for Columns **P** and **Q** and the MAX()
-    and MIN() functions. The result should look like this:
+1. Now, select **Cell B7** and click on the **Functions** tool on the toolbar and select **SUM**.
 
-    ![](images/tutorial_charts/3.png)
+    ![Sum Function](images/tutorial4/10.png)
 
-4.  In cell **R2**, enter the new heading *Percent of Total*.
-5.  Select cell **R3**. Enter =, click on cell **N3** (the total for the
-    heating bill), press / for division, and click on cell **N7** (the
-    total for all bills), finally press **F4** on the keyboard to
-    convert the reference to **N7** into an absolute reference. The
-    final formula will end up looking like this (note how Excel
-    automatically re-labels some cell references): `=[@Total]/$N$7`.
-    When you hit **Enter**, it should fill in the rest of the column
-    autmoatically!
-6.  Change the number format of these cells to percentages, resize the
-    column, and you should have something that looks like this:
+1. Now, select the cells that we are summing, **B3:B6**. And press **Enter** to see the total.
 
-    ![](images/tutorial_charts/4.png)
+    ![Sum Completed](images/tutorial4/11.png)
+
+1. Next, select **Cell B7** again, and click the **Fill Handle** and drag it to the right to fill in the bottom row of the table:
+
+    ![Fill Handle](images/tutorial4/12.png)
+
+1. Follow a similar procedure to fill in the Total Column, **N**. Create a SUM() function in cell **N3**, select the numerical cells in that row, **B3:M3**
+
+    ![Total Column](images/tutorial4/13.png)
+
+1. Let's add a few more columns and calculate those statistics. Add columns for Average, Min, and Max. You'll notice that it again automatically adds the correct formatting to those cells.
+
+    ![Stats Columns](images/tutorial4/14.png)
+
+1. Let's just do the first cell of each column and then use the Fill Handle to complete the table. Select **Cell O3**, click the **Functions** tool and select **AVERAGE**.
+
+    ![Average](images/tutorial4/15.png)
+
+1. Now, click and drag to select **Cells B3:M3** to add them to the calculation. Press **Enter**.
+
+    ![Completing the Average Function](images/tutorial4/16.png)
+
+1. Follow the same procedure for MIN() and MAX() in the other two columns. This is the result:
+
+    ![Min and Max Functions](images/tutorial4/17.png)
+
+1. Select **Cells O3:Q3** and drag the Fill Handle Down to fill in the rest of the table.
+
+    ![Fill the rest of the table](images/tutorial4/18.png)
+
+    **See the video if you have any trouble with this step!**
+
+1. Let's add one more column. Select **Cell R2** and type "Percent of Total". You may need to resize the column to fit the contents.
+
+1. Select **Cell R3**. Enter **=**, click on cell **N3** (the total for the heating bill), press **/** for division, and click on cell **N7** (the total for all bills), finally press **F4** on your keyboard to conver the relative reference to **N7** to an absolute reference. The final formula looks like this: `=N3/$N$7`. 
+
+    ![Percent of total R3](images/tutorial4/19.png)
+
+1. Finally, drag the **Fill Handle** down to fill in the rest of the column. Then change the number format to **Percentage**
+
+    ![Percent of total column complete](images/tutorial4/20.png)
 
 ### A bar graph
 
@@ -181,109 +214,82 @@ Now, we want to make some charts. It would be useful to see how various
 bills fluctuate throughout the year. So we'll want to build a basic bar
 graph.
 
-1.  Select the cell range A2:M7. That is, grab all of the month data
-    plus to the total row, but not the total column.
-2.  In the **Insert** tab, **Charts** group, select the **Column** tool
-    and select the first option, **Clustered Column**:
+1. Select the cell range **A2:M7**. That is, grab all of the month data plus the total row, but not the total column:
 
-    ![](images/tutorial_charts/5.png)
+    ![Select A2:M7](images/tutorial4/21.png)
 
-3.  The first thing you'll notice, is that our chart looks terrible.
-    That's because it's being correlated by bill and not by month. Let's
-    fix that. You should be in the new **Chart Tools: Design** tab. In
-    the **Data** group, select the **Switch Row/Column** tool. It will
-    look a lot more reasonable.
+1. In the **Insert** menu, select **Chart**. A chart will appear, but we need to make some changes to it.
 
-    ![](images/tutorial_charts/6.png)
+    ![Create Chart](images/tutorial4/22.png)
 
-4.  Examine your chart. The chart is still a little weird and if you
-    look carefully at the legend on the bottom of the chart, you might
-    see why. Notice that in each month, we have a bar for heat, water,
-    internet, electricity, and Total. Total doesn't belong here because
-    it's literally the total of the other four. So it's basically
-    drowning out all of the other bars and dominating the entire chart.
-    So we're going to do a little surgery on our chart to make this look
-    a little more reasonable.
-5.  While still in the **Chart Tools: Design** tab, click **Change Chart
-    Type** in the **Type** group.
-6.  Select the **Combo** type.
-7.  In the dialog, make sure all four of the bills are still set to
-    *Clustered Column*, and the total is set to *Line*. Last, check the
-    *Secondary Axis* box next to the Total line.
+1. In the **Chart Editor** dialog, do the following:
+    * Set the Chart Type to **Combo Chart**
 
-    ![](images/tutorial_charts/7.png)
+        ![Combo Chart](images/tutorial4/23.png)
 
-8.  Press **OK**.
-9.  To polish up our Chart a little bit, double click on the Chart Title
-    to edit it and change it to **Yearly Bills**.
-10. Finally, in the **Chart Tools: Design** tab, click **Move Chart**
-    and select **New Sheet** and change the name to *Bills Chart*. This
-    moves it to its own sheet in your workbook.
-11. If you like, feel free to change the **Chart Style** to something
-    that looks nice.
+    * Set **Stacking** to **None** so that the bars won't stack on top of each other.
+
+        ![Stacking and chart type](images/tutorial4/24.png)
+
+    * In the **Customize Tab**, find the **Series** menu and expand it by clicking on it. With the top box displaying **Apply to All Series** Change the **Type** to **Columns**.
+
+        ![Change type to columns](images/tutorial4/25.png)
+
+    * Now, change **Apply to All Series** to **Total**, so the next actions will only affect the **Totals** chart series. Change the **Type** to **Line** and the **Axis** to **Right Axis**. Observe the result.
+
+        ![Change Total chart series display](images/tutorial4/26.png
+
+1. To summarize what we've done to create this chart. The default chart was a stacked column, which we do not want. So we unstacked the columns. Then, we changed the chart type to a combo chart so that we could treat the total series differently (since it's an aggregate of all the other data). We customized this layout by converting all of the series to columns and then change *just* the Total series to a line. Finally, since this series was suppressing all of the other data in the chart, we swapped its axis to the right axis so that the other data could display better. The result:
+
+    ![Column Combo Chart](images/tutorial4/27.png)
+
+1. Finally, let's move the chart to its own sheet. With the chart selected, mouse over the top-right corner and then **Click** the ellipses and in the menu select **Move to own sheet**. Now the chart is on a new sheet and fills the entire sheet.
 
 ### A pie chart
 
 Next, let's make a pie chart to visualize how the year end totals relate
 to each other.
 
-1.  Make sure you're on the Bills sheet.
-2.  Select the cell range A3:A6, the names of the four bills. Next, hold
-    the *Ctrl* key while selecting the range N3:N6. This allows us to
-    select both the names and the totals of each bill.
+1. Return to the Bills sheet.
 
-    ![](images/tutorial_charts/8.png)
+1. Follow this procedure *exactly*. Select the cell range **A3:A6**, the row headings for the four bills. Next, hold the **Ctrl** key while selecting the range **N3:N6**. This allows us to select both the names and the totals for each bill.
 
-3.  In the **Insert** tab, select the **Pie Chart** tool and select the
-    first 2D pie chart.
+    ![Column Combo Chart](images/tutorial4/28.png)
 
-    ![](images/tutorial_charts/9.png)
+1. In the **Insert** menu, select **Chart** once again. This time, the automatically selected chart will, again, be a bar chart.
 
-4.  Now, select **Add Chart Element**, **Data Labels**, and select the
-    **Data Callout** option. This puts the bill name and percentage on
-    each pie slice.
+    ![Wrong Chart](images/tutorial4/29.png)
 
-    ![](images/tutorial_charts/10.png)
+1. To fix this, simply change the **Chart type** to a **Pie** Chart.
 
-5.  Again, in **Add Chart Element**, **Legend**, select **None** since
-    we don't need it with the data callouts.
+    ![Pie Chart Fixed](images/tutorial4/30.png)
 
-    ![](images/tutorial_charts/11.png)
+1. Move the pie chart to its own sheet.
 
-6.  Finally, change the chart title to **Total Bills** and move it to
-    its own chart sheet.
+### Sparklines
 
-### Sparklines and Data Bars
+Let's explore another data visualization tool. Sparklines are like charts, but they are contained in a single cell. If you've done this in Excel, it works a bit differently in Sheets. Let's see how it works.
 
-Let's explore two more charting and data visualization tools,
-**Sparklines** and **Data Bars**. Sparklines are like charts but they
-are contained to a single cell. Data bars are a kind of conditional
-formatting which allows us to visualize the data in the cells. Let's see
-how they work
+1. Select column **O** by clicking on its header.
+1. Right-click on the **O** column header and click **Insert 1 left**, which will insert a new column. Then do it again, so you have two new columns.
 
-1.  Select column **O** by clicking on its header.
-2.  In the **Home** tab, in the **Cells** group, click **Insert**. This
-    should insert a new blank column into our table.
-3.  Click on the heading in Column **O** and change the heading to
-    **Year Trend**. This is what it should all look like.
+    ![Insert two new columns](images/tutorial4/31.png)
 
-    ![](images/tutorial_charts/12.png)
+1. In **Cell P2**, enter "Year Trend" and in **Cell 02**, enter "Total Comparison".
+1. Next, let's add the first Sparkline. In cell P3, type `=SPARKLINE(`
 
-1. Select the new blank cells **O3:O7**.
-1. In the **Inert** tab, find the **Sparklines** group and click **Line**.
+    ![Sparkline start](images/tutorial4/32.png)
 
-    ![](images/tutorial_charts/13.png)
+1. Now, use the mouse to select cells **B2:M2** and press **Enter**. Observe the result. You now have a trendline contained within a cell!
 
-1. The *Location Range* should be pre-populated with the range `$O$3:$O$7`. With the insertion point in the the *Data Range* box, simply select the cells `B3:M7` and that reference should appear in the box. Verify that your screen looks like this image before clicking **OK**.
+    ![Sparkline created](images/tutorial4/33.png)
 
-    ![](images/tutorial_charts/14.png)
+1. Select **Cell P2** and drag the Fill Handle down to fill in the column.
 
-1. The result looks like this:
+    ![Fill in sparkline column](images/tutorial4/34.png)
 
-    ![](images/tutorial_charts/15.png)
+1. We're going to try something a bit more complex now. In **Cell O2**, you'll create a new Sparkline for a bar graph. This is a bit tricky, as it involves adding a number of options to your formula. For brevity, here is the full formula: `=SPARKLINE(N3, {"charttype","bar";"max",3000})` Let's break this up though. We know what a function looks like when it's used. We start with an **=** and then the name of the function. The Sparkline syntax looks like this: `=SPARKLINE(data, {options})`. So in this case, the data is a reference to the total cell. In the options, we are defining the chart type as "bar" and the maximum value as "3000". This means it will fill the cell with color proportional to the max value of 3000. If we drag the fill handle down, it will create a sort of small bar chart in the cells to the right of the totals column, to give the user a visual indicator of the proportional difference between the totals. Neat, huh?
 
-1. To create the *Data Bars*, select cells `N3:N6` and in the **Home** tab, select **Conditional Formatting**. Then simply select **Data Bars** and choose a style you like. This gives you the ability to visualize data *within* a cell as it relates to data in other cells.
-
-    ![](images/tutorial_charts/16.png)
+    ![Data Bar](images/tutorial4/35.png)
 
 This concludes the tutorial. Submit the file to the course portal as normal.
