@@ -1,11 +1,11 @@
 ---
-title: 'Tutorial 6 - MLA Style'
+title: 'Tutorial 5 - MLA Style'
 layout: page
 parent: Chapter 3 - Word Processing
 nav_order: 6
 ---
 
-Tutorial 6 - MLA Style
+Tutorial 5 - MLA Style
 ======================
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kxCEp7b3ovg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
