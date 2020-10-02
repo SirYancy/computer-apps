@@ -10,7 +10,9 @@ Introduction
 
 ![Google Slides Logo](images/slides_logo.png){: width="25%"}
 
-Google Slides is a presentation graphics app that
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2P8i6Y4OSfk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Google Slides](https://slides.google.com) is a presentation graphics app that
 includes a suite of tools and utilities to create professional
 presentations.
 
