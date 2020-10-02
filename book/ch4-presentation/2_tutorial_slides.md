@@ -100,8 +100,45 @@ Now, let's add some actual content. Throughout this process, let's leverage the 
 | ![habitat example](images/tut/e1.png) | ![habitat example](images/tut/e2.png) |
 | ![habitat example](images/tut/e3.png) | ![habitat example](images/tut/e4.png) |
 
+### Transitions and Animations
+
+The last thing we'll do is add some animations to our slides. These add visual appeal and motion to an otherwise static experience. 
+
+Transitions
+:   These are animations that play as a transition from one slide to another.
+
+Animations
+:   These are animations that can be triggered to occur inside a given slide. Usually used as a method to create what's called **Progressive Disclosure**.
+
+Progressive Disclosure
+:   The process of revealing information on a given slide one bullet at a time. This can be used as a way of adding emphasis to your speech, or keeping your audience from simply reading the slides.
+
+1. Return to your first slide, your title slide.
+1. In the **Slide** menu, select **Transition**.
+
+    ![Open Transition Pane](images/tut/14.png)
+
+1. The transition pane opens on the right and will replace any other pane that you may have open. From the menu, select a transition that you like. There aren't too many to choose from. After you select one, you can click the **Play** button to see what it looks like.
+
+    ![Select a transition](images/tut/15.png)
+
+1. Once you've selected a transition that you like, click the button that says **Apply to all slides** and you're done. The same transition will play for all slides.
+
+    ![Apply to all slides](images/tut/16.png)
+
+1. Go to the first slide that has some bullets. It should be your second slide. The **Motion** pane should still be open. **Select** the text box with the bullets by clicking on it. Then click **Add animation** when the Motion pane changes
+
+    ![Add Animation button](images/tut/17.png)
+
+1. The process here is simple. To create a *progressive disclosure* effect, simply select an animation that you like from the menu, ensure that **On click** is selected. Then **Check** the box that says **By paragraph**, which will ensure that each bullet comes on its own click, giving you complete control over how much information is displayed during the presentation.
+
+    ![Progressive Disclosure Effect](images/tut/18.png)
+
+1. You can mess around with the speed of the animation as you like, but this is the basic process. Proceed to add progressive disclosure animations to each slide in the file and then the tutorial is complete.
+
+
 ## Conclusion
 
-Now, if you're observant, you'll notice that I never changed the file name. Go ahead and do that now, and make sure to move it to an appropriate folder in your Google Drive. Submit it as a link to Canvas as normal.
+Now, if you're observant, you'll notice that I never changed the file name until the very end. It totally slipped my mind. Go ahead and do that now, and make sure to move it to an appropriate folder in your Google Drive. Submit it as a link to Canvas as normal.
 
 There are a lot more features that you can use in Slides, but honestly, with just the few we've explored in this tutorial, you'll be well on your way to crafting slides that will impress.
