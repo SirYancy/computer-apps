@@ -8,6 +8,8 @@ nav_order: 3
 Project - Slides Show and Tell
 ==============================
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XwV7rdvKfZk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Here's your chance to flex some slideshow muscle. For this project, you're going to build a short slide show about something you have some knowledge of and could theoretically give a five or ten minute speech about. You'll have the opportunity to show off your Slides skills *and* some special knowledge that you have. Think of it as a show-and-tell.
 
 A good example might be my [history of computing slides](https://docs.google.com/presentation/d/1981HfDAQWMwuWCTzK0kYFVVy8qTn4vuC9MsE289DOTo/edit?usp=sharing)
