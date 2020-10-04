@@ -8,6 +8,8 @@ nav_order: 15
 Project - Advanced Weather Charting
 =====================================
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7-0GpZdvVCs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Data is everywhere. Collecting it and utilizing it is a matter of intense debate. What data is it okay to collect? If it's okay to collect, then in what ways is it okay to use it? These questions and more like them are the subject of many a college course, conference workshop, and dinner-table debate. And they should be. Coming to terms with how and why data are used is going to be a major struggle of our age.
 
 On our campus, we employ a service called Rainwise to log data from a weather station on campus. It collects a comprehensive set of data every minute of every day. Feel free to check it out [here](https://rainwise.net/weather/LLTC56633).
