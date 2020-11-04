@@ -120,9 +120,9 @@ components of a database:
 
 ![](images/elements/5.png)
 
-It breaks down kind of like this: \* **Tables** generate **Forms** and
-**Forms** modify individual **records** in tables. \* **Queries** search
-one or more tables **Tables** for specific data. \* **Reports** format
+It breaks down kind of like this: **Tables** generate **Forms** and
+**Forms** modify individual **Records** in tables. **Queries** search
+one or more tables **Tables** for specific data. **Reports** format
 **Table** data or **Query** results for printing.
 
 As we continue on, you will see many of the ways in which these powerful

@@ -3,106 +3,50 @@ title: 'TUTORIAL 2 - Tables and Data'
 layout: page
 parent: Chapter 6 - Databases
 nav_order: 4
+mathjax: true
 ---
 
 TUTORIAL 2 - Tables and Data
 ============================
 
 We need to populate the database and its tables with actual data in
-order for this to be interesting. So let\'s start looking into that, but
+order for this to be interesting. So let's start looking into that, but
 first, we have to make a couple of minor changes to our tables.
-
-Fixing Some Problems
---------------------
-
-We all make mistakes. And we\'re going to correct them. There is
-something amiss with how we are formatting our dates. I had wanted us to
-use the input mask to make our dates look how we want, but there are two
-main problems with it. First, it is incredibly difficult to find exact
-release dates for vinyl records, so our data would be incomplete. So
-we\'re going to restrict it just to the year.
-
-1.  Open up your database file from the previous tutorial.
-2.  First, open the *Albums* table. In the **Home** tab, click the
-    **View** button at the far left of the ribbon. Now you should be in
-    *Design View*.
-3.  Select the *Data Type* for *Release Date* and change it to
-    **Number**.
-
-    ![1](images/data/1.png)
-
-4.  Save and close the *Albums* table and open the *Artists* table.
-5.  Here, we\'re going to change the *ArtistID* field to the **Number**
-    Data Type. So go to *Design View* and make the necessary change. The
-    reason for this is it will make it easier to import the data from an
-    external file. After importing the data, you could certainly change
-    it back to AutoNumber.
-
-    ![2](images/data/2.png)
-
-6.  **Do the same thing** with the Genre\'s table and then save and
-    close all tables.
 
 Creating Relationships
 ----------------------
 
 Next, we need to establish our relationships. This is the feature which
-defines ralational databases more than any other. Let\'s see how it\'s
+defines relational databases more than any other. Let's see how it's
 done.
 
-1.  Ensure that all tables are closed.
-2.  In the **Database Tools** tab, select the **Relationships** tool.
-    ![2-1](images/data/2-1.png)
-3.  **Add** all three tables to the Relationships interface by
-    double-clicking on their names.
-    ![2-2](images/data/2-2.png)
-4.  Close the *Show Table* dialog.
-5.  We want to establish the *ID* keys of the *Artists* and *Genres*
-    tables in their respective Foreign Key fields in the *Albums* table.
-    To do this: **Click** and **drag** the *ArtistID* field from the
-    *Artists* table over to the *ArtistID* field in the *Albums* table:
-    ![2-3](images/data/2-3.png)
-6.  In the *Edit Relationships* dialog, **check** the following options:
-    (What do you think each one means?)
-    A.  *Enforce Referential Integrity*
-    B.  *Cascade Update Related Fields*
-    C.  *Cascade Delete Related Records*
-7.  Ensure that your dialog looks like this:
+1.  Ensure that all tables are closed. In the **Tools** menu, select **Relationships**.
 
-    ![2-4](images/data/2-4.png)
+    ![Select Relationships tool](images/data/1.png)
 
-8.  Click **Create**. You\'ll see the link created between the two
-    tables:
+1. In the new window that opens, select each table in turn and click **Add**, so that all three table *schema* boxes appear in the main window. Close the **Add Tables** dialog.
 
-    ![2-5](images/data/2-5.png)
+    ![Add all three tables](images/data/2.png)
 
-    Notice the 1 and the infinity symbol ($\infty$). This signifies that
-    this is a **One-To-Many** relationship. Simply: An artist can have
-    many albums, but an album can only have one artist. I realize that
-    this is not an accurate reflection of reality (modelling reality is
-    what computers are supposed to do), but it fits our purposes here
-    well.
+1. You can move the little schema boxes around as much as you like in this to keep things arranged neatly. What you want to do is wire up relationships between the ID fields of Artists and Genres to the foreign key fields we've created in the Albums table. Let's start with Artists. **Click** and hold on *ArtistID* in the *Artists* box. **Drag** it over to *ArtistID* in the *Albums* box. A line will appear denoting the relationship! Observe:
 
-9.  Do the same with the *GenreID* field in the *Genres* table and the
-    same field in the *Albums* table. Be sure to Enforce Referential
-    Integrity, and set both of the Cascade options.
+    ![Create Relationships](images/data/3.gif)
 
-    ![2-6](images/data/2-6.png)
+1. That's it. The relationships are created. Simply click the *Save* button and we're done. But let's, for a moment, discuss what just happened. In a relational database of the type used in Base (and many other database programs), relationships between tables are what make them work together, and helps make searchable. Look at the link drawn between two of these fields. On the Artists side, for example, there's a little *1* and on the Albums side, there's an *n*. This signifies that this is what's called a **One-To-Many** relationship. What this means is that an artist can have many albums, but an album can only have one artist. This might not completely accurately reflect the reality of the recording industry, but it *does* suit our purposes here just fine.
 
-10. Save the Relationships and close the Relationship Tools interface by
-    **right-clicking** on the tab in the window.
+10. **Save** the Relationships and close the Relationship Tools interface by by click the **Close** button.
 
 Importing some data
 -------------------
 
-Next, we will import some actual data. First, let\'s populate the Genre
+Next, we will import some actual data. First, let's populate the Genre
 and Artist tables. Download the two data files.
 
 -   [artist.csv](res/artist.csv)
 -   [genre.csv](res/genre.csv)
 
-Copy them all to your working directory so you don\'t lose them, and
-then let\'s get started.
+Copy them all to your working directory so you don't lose them, and
+then let's get started.
 
 1.  First, make sure all of your tables are closed.
 2.  In the **External Data** tab, in the **Import** group, find the
@@ -111,7 +55,7 @@ then let\'s get started.
 
     ![3](images/data/3.png)
 
-3.  The dialog that opens will have several options. Let\'s go through
+3.  The dialog that opens will have several options. Let's go through
     them.
 
     1. Under file name, click **Browse** and find the **artist.csv** file.
@@ -139,7 +83,7 @@ then let\'s get started.
 
     ![7](images/data/7.png)
 
-8.  We\'re going to do exactly the same thing with the **Genres** table
+8.  We're going to do exactly the same thing with the **Genres** table
     and the **genre.csv** file. It should look like this when you are
     done.
 
@@ -148,8 +92,8 @@ then let\'s get started.
 Adding some of the album data
 -----------------------------
 
-We\'ll add a album records by hand because it\'s good to see how it
-works. So here\'s five of the albums from my collection in tabular form:
+We'll add a album records by hand because it's good to see how it
+works. So here's five of the albums from my collection in tabular form:
 
   | AlbumName                     | ReleaseDate   | ArtistID   | GenreID    |
   | ----------------------------- | ------------- | ---------- | ---------- |
@@ -172,10 +116,10 @@ works. So here\'s five of the albums from my collection in tabular form:
 Importing the rest of the data
 ------------------------------
 
-To fill out the rest of the Albums table, we\'ll use another csv file.
+To fill out the rest of the Albums table, we'll use another csv file.
 The process will be similar to the other two tables
 
-1.  Close the Albums table. It won\'t work if the table is open.
+1.  Close the Albums table. It won't work if the table is open.
 2.  Download the file:
     [albums.csv](res/albums.csv)
 3.  In the **External Data** tab, select **New Data Source** and select
@@ -199,3 +143,24 @@ Save everything, repair and compact your database, and then upload it to
 the class portal.
 
 In the next tutorial, we will begin querying our database.
+
+One last thing before we upload this. As databases grow, they can become
+fragmented and take up more space than they need to on the hard drive.
+To this end, Access includes a utility to compact the database so that
+it is smaller and more manageable.
+
+1.  First, save and close all open tables.
+2.  Click the **File** tab.
+3.  In the *backstage* view, click the large button that says **Compact
+    & Repair**.
+
+That's it. Close it and upload your database in this form to the
+portal. **Note:** It is important that you close it before uploading it.
+Opening a database actually creates a second file in the folder with the
+database file. The database file has the .accdb extension. This new file
+has the .laccdb extension. It's a locking file that prevents two people
+from editing the same database at the same time. It's for security.
+That said, I have had students upload the lock file before and it
+creates a fair bit of confusion. So to prevent this, make sure you close
+the database first, which deletes the locking file and then there's no
+confusion.
