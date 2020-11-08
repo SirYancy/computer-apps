@@ -9,6 +9,8 @@ mathjax: true
 TUTORIAL 1 - Tables
 ===================
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yU9eBkm30gk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 The first Database object we will explore is the table. The basic idea of
 a table persists across almost all database software, and a baseline understanding will serve you well if you decide to move on to more advanced database tools in the future.
 

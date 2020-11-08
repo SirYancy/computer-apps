@@ -8,6 +8,10 @@ nav_order: 1
 Database Fundamentals
 =====================
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jHp3_DRWhwU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Slides for this page](https://docs.google.com/presentation/d/e/2PACX-1vTialPd_tb8Lb6PRzlwD_CYfgYeP7PC984QF3DgCkrJ7mPh9jX97SuFW8aIAICQ3Y4fzhDP888-r1bv/pub?start=false&loop=false&delayms=3000)
+
 LibreOffice Base is a database management system from the Document Foundation. It
 combines two important tools to create a unified application. Behind the
 scenes it has a variant of a popular database

@@ -9,6 +9,8 @@ mathjax: true
 TUTORIAL 2 - Tables and Data
 ============================
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9pCXDKEqPRw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 We need to populate the database and its tables with actual data for this to be interesting. Let's start looking into that, but first, we have one important matter to discuss.
 
 Creating Relationships

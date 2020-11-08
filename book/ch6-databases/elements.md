@@ -8,6 +8,10 @@ nav_order: 2
 Elements of a Database
 ======================
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6y5BfS_eIpU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Slides for this page](https://docs.google.com/presentation/d/e/2PACX-1vT9b4EUPcr7riSt13Evug9DENvqCGcf5pXr9cm_6r1SpEaDcRaEUQAEnG7piKdAUp2w8beoF7lkqxUS/pub?start=false&loop=false&delayms=3000)
+
 [Example
 File](res/vet_example.odb)
 
