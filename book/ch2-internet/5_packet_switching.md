@@ -71,7 +71,10 @@ Because the sender knows how many packets it is sending, how big they are, and h
 HyperText Transmission Protocol (HTTP)
 --------------------------------------
 
-HTTP is a little different. It's very specific to the World Wide Web. Check the [section in this chapter](2_the_web.md) on Web for a rundown. describes how to request web pages, how to send web pages, and how to deal with errors in the process. HTTPS is a secure form of HTTP that includes specifications on how to handle the encryption of information on the page.
+HTTP is a little different. It's very specific to the World Wide Web. Check the [section in this chapter](2_the_web.md) on Web for a rundown. HTTP describes how to request web pages, how to send web pages, and how to deal with errors in the process. HTTPS is a secure form of HTTP that includes specifications on how to handle the encryption of information on the page.
+
+Other Protocols
+---------------
 
 There are many other protocols that are used on the Internet (SSH, SMTP, FTP, DNS, LDAP, DHCP, IRC, QUIC, and more), but we will not go into them in any real detail in this course.
 
@@ -93,7 +96,7 @@ Milestones
   | 1990 | First attempt to index the internet, University of Montreal                                                                                                          |
   | 1991 | Gopher (named for University of Minnesota mascot) created, giving the internet a point-and-click interface.                                                       |
   | 1993 | Mosaic is the first popular navigation system (web browser).                                                                                                         |
-  | 1994 | The White House launches [www.whitehouse.gove](www.whitehouse.gov). First e-commerce websites. Mass marketing via email leads to coining of the term "spam" |
+  | 1994 | The White House launches [www.whitehouse.gov](http://www.whitehouse.gov). First e-commerce websites. Mass marketing via email leads to coining of the term "spam" |
   | 1995 | First major dial-up internet access widely available (America Online, CompuServe, Prodigy).                                                                          |
   | 1996 | Approximately 45 million people on the Internet, mostly in the US                                                                                                    |
   | 1997 | Nasa broadcasts images taken by *Pathfinder*, breaks Internet traffic numbers, gaining 46 million hits in one day. The word "weblog" is coined.                  |
