@@ -8,7 +8,7 @@ nav_order: 4
 Tutorial 3 - Formatting and Working with Images
 ===============================================
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Co54X0qMPt8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BoxWSEAVS4o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A modern word processor is more than just a tool to write letters. It's
 also a full-featured desktop publishing app. While perhaps not ideal for
