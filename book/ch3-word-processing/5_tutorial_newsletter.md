@@ -8,7 +8,7 @@ nav_order: 5
 Tutorial 4 - More Complex Formatting: A Newsletter
 ==================================================
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6Wb-v7KcnvM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v4-M5fTM1oU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Continuing our fundamental foray into the world of desktop publishing with Microsoft Word, let's play around with a few more tools while we build a simple newsletter.
 
