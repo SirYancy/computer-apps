@@ -91,7 +91,7 @@ Adding columns is simple, however in our case, it will require some careful sect
 
     ![Two Columns](images/tutorial4/10.png)
 
-1. Now, at this point, the columsn are very unbalanced. So let's fix that. Place the insertion point at the beginning of the paragraph that starts with the word **When**:
+1. Now, at this point, the columns are very unbalanced. So let's fix that. Place the insertion point at the beginning of the paragraph that starts with the word **When**:
 
     ![Place Insertion Point Here](images/tutorial4/11.png)
 
