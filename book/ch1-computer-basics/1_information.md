@@ -1,5 +1,5 @@
 ---
-title: A Mental Framework
+title: What is Information?
 layout: page
 parent: Chapter 1 - Computer Basics
 nav_order: 1
