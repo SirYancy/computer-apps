@@ -9,7 +9,7 @@ permalink: /book/ch2-internet
 The Internet
 ============
 
-The Internet was invented in the sixties. It has been through many incarnations and is continually being reinvented as new technologies are devised. The part of the Internet that we interact with daily is called the World Wide Web and was created in the early 90s by Tim Berners-Lee. It is perhaps the single most disruptive technology the world has ever seen. It has fundamentally changed the way information and data flow throughout our civilization. Pari this with ubiquitous smartphones, and we suddenly have the most connected society this world has ever seen.
+The Internet was invented in the sixties. It has been through many incarnations and is continually being reinvented as new technologies are devised. The part of the Internet that we interact with daily is called the World Wide Web and was created in the early 90s by Tim Berners-Lee. It is perhaps the single most disruptive technology the world has ever seen. It has fundamentally changed the way information and data flow throughout our civilization. Pair this with ubiquitous smartphones, and we suddenly have the most connected society this world has ever seen.
 
 The early sections of this chapter deal with what the internet is, what the World Wide Web is, and how we interact with it. It contains overviews of web browsers, search engines, and different kinds of web sites, services, and tools. We'll talk about email, cloud storage, and cloud-software.
 
