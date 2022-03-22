@@ -163,7 +163,7 @@ A slicer is a UI element that you can add to your sheet which will allow you to 
 
     ![Set up the slicer](images/tutorial2/19.png)
 
-1. Close the slicer dialog and reposition the actual slicer tool to somewhere more logical. Then, open the Status slicer menu and uncheck *Client**.
+1. Close the slicer dialog and reposition the actual slicer tool to somewhere more logical. Then, open the Status slicer menu and uncheck **Client**.
 
     ![Position and activate slicer](images/tutorial2/20.png)
 
