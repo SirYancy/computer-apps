@@ -8,7 +8,7 @@ nav_order: 1
 What is Information?
 ====================
 
-If you are reading this right now, you are sitting at a computer, or holding one in your hands. We are more connected and have access to more knowledge at our fingertips than at any point in human history. And it is growing at an exponential rate.
+If you are reading this right now, you are sitting at a computer, or holding one in your hands (unless for some reason, someone decided to print this document, which is not the intended way to consume this content). We are more connected and have access to more knowledge at our fingertips than at any point in human history. And it is growing at an exponential rate.
 
 * [Google processes 40,000 searches every second.](https://www.internetlivestats.com/google-search-statistics/)
 * [Worldwide, there are 5 billion searches per day](http://www.smartinsights.com/search-engine-marketing/search-engine-statistics/)
