@@ -48,7 +48,7 @@ TUTORIAL
 
 1.  Open a new blank document in Word. Ensure that the rulers and
     non-printing characters are visibile. Check the [Chapter
-    introduction](word_tour.html) if you can't remember where these are.
+    introduction](1_word_tour.html) if you can't remember where these are.
     Your window should look like this:
 
     ![A brand new Word document](images/tutorial2/1.png)
