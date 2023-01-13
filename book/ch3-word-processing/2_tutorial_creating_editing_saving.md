@@ -8,6 +8,8 @@ nav_order: 2
 We are going to create, edit, and save a word document. This document
 will be submitted to the class portal for grading.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vMEzZCJpf1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 TUTORIAL
 ========
 
