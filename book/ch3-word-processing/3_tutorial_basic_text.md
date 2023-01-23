@@ -7,6 +7,8 @@ nav_order: 3
 
 # Tutorial 2 - Basic Text Editing
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3zfPORSH1NY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <style>
 pre {
     overflow-x: auto;
@@ -47,7 +49,7 @@ TUTORIAL
 ========
 
 1.  Open a new blank document in Word. Ensure that the rulers and
-    non-printing characters are visibile. Check the [Chapter
+    non-printing characters are visible. Check the [Chapter
     introduction](1_word_tour.html) if you can't remember where these are.
     Your window should look like this:
 
