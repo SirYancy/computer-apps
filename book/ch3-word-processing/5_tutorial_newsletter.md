@@ -7,6 +7,8 @@ nav_order: 4.5
 
 # Tutorial 4 - More Formatting
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_nDsaDxOi3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 Continuing our fundamental foray into the world of desktop publishing with Microsoft Word, let's play around with a few more tools while we build a simple newsletter.
 
 Tools Covered
