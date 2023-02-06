@@ -1,7 +1,7 @@
 --- 
 title: 'Tutorial 4 - Functions and Basic Charts'
 layout: page
-parent: Chapter 4 - Spreadsheets
+parent: Chapter 5 - Spreadsheets
 nav_order: 7
 ---
 
@@ -111,11 +111,11 @@ We're going to take another look at the yearly bills worksheet that we
 saw in a previous tutorial.
 
 1.  Download the [start
-    file](https://itech.erickuha.com/book/ch4-spreadsheets/res/charting_start.xlsx)
+    file](https://itech.erickuha.com/book/ch5-spreadsheets/res/charting_start.xlsx)
 
     ![The Start](images/tutorial_charts/1.png)
 
-2.  The data is very raw. As in [Tutorial 2](https://itech.erickuha.com/book/ch4-spreadsheets/tutorial2-formatting.html), select cells **A1-M1** and click **Merge &amp; Center**. Then add the Title stile to this new cell. It should look like this:
+2.  The data is very raw. As in [Tutorial 2](https://itech.erickuha.com/book/ch5-spreadsheets/tutorial2-formatting.html), select cells **A1-M1** and click **Merge &amp; Center**. Then add the Title stile to this new cell. It should look like this:
 
     ![Merge and Centered Title](images/tutorial_charts/1-2.png)
 
