@@ -152,4 +152,4 @@ Let's add some images in a variety of ways
 
 ### Closing
 
-With that, the newsletter is done. Submit the final version of the file on Canvas as normal.
+With that, the newsletter is complete! Submit the final version of the file on Canvas as normal.
