@@ -7,6 +7,8 @@ nav_order: 6
 
 # Tutorial 6 - MLA Style
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uYFIBQLkobI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 One of the things you'll be asked to do as a college student, is to
 write essays. It's just a fact of life. As part of this, you'll be asked to adhere to some formal style guide. There are a number of style definitions out there. If you're in a STEM field, you might be required to follow the styleguide of the American Psychological Association (APA), and if you're in a humanities course, you might be asked to adhere to the Modern Language
 Association (MLA) style.
