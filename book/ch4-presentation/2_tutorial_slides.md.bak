@@ -8,8 +8,6 @@ nav_order: 2
 Tutorial - Creating and Building a Slide Show
 =============================================
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t7B9rWmdepA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 In this tutorial, we are going to build a slideshow. This will be a little different than our tutorials so far in that it will be largely free-form. You are not necessarily going to build the exact same slideshow as presented here. Indeed, you should experiment with your own subject.
 
 Your first order of business is to think of an animal that you like. Take a moment.
@@ -25,48 +23,48 @@ With your chosen animal, you are going to follow these same basic steps. I'd cer
 
 Let's begin.
 
-1. Go to [Google Slides](http://slides.google.com/).
-1. You'll be greeted by the slides homepage. It will have a list of all of your slideshows in your google account listed from most recently accessed.
+1. Open the **PowerPoint** app.
+1. You'll be greeted by the backstage view of the app, which will include a list of templates and recently accessed slideshows.
 
-    ![Google Slides homepage](images/tut/1.png)
+    ![PowerPoint Backstage](images/tut/1.png)
 
     Click on the **Blank** template. We want a clean slate.
 
-1. You'll be greeted with the [Slides interface](1_slides_tour.html). The first thing you'll want to do is select a theme. Scroll down the Themes panel and select one that seems to fit your animal. Or just pick one at random:
+1. You'll be greeted with the [PowerPoint Interface](1_powerpoint_tour.html). The first thing you'll want to do is select a theme. Select the **Design** tab and select a theme that you like. Or just pick one at random:
 
-    ![Select a them](images/tut/2.png)
+    ![Select a theme](images/tut/2.png)
 
-    I picked "Coral," but you may select whichever one you wish. Afterwards, you may want to dismiss the **Themes Pane** by clicking the X in the top right corner as shown in the screenshot above.
+    I picked "Wisp," but you may select whichever one you wish. 
 
 1. Type in a title, use the name of your animal. Then add a subtitle. Be as clever as you wish:
 
     ![Add a title and subtitle](images/tut/3.png)
 
-1. That done, let's try something out. Click the **Explore** button at the bottom right of the Slides interface:
+1. That done, let's try something out. There should be a Designer panel on the right that will give you ideas for designing your slide:
 
-    ![Click Explore](images/tut/4.png)
+    ![Designer Panel](images/tut/4.png)
 
 ### The Explore Pane
 
-The **Explore** pane is a kind of AI assistant. It will happily supply you with alternative slide layouts and designs based on what content is in your slides. And it does a pretty good job. Let's see what we can do with it.
+The **Designer** pane is a kind of AI assistant. It will happily supply you with alternative slide layouts and designs based on what content is in your slides. And it does a pretty good job. Let's see what we can do with it.
 
 1. First, take a look at the suggestions that it already has generated for your title slide.
 
     ![Explore pane in action](images/tut/5.png)
 
-1. You could certainly use one of these suggested layouts, but let's take it a step further. Click the **Insert Image** button and select **Search the web**.
+1. You could certainly use one of these suggested layouts, but let's take it a step further. Select the **Insert** tab and the **Pictures** tool. Select the **Online Pictures...** option.
 
     ![Insert an image](images/tut/6.png)
 
-1. Type your search term in the Google search bar and hit **Enter**. Select an image by **clicking** on it. Then click **INSERT**.
+1. Type your search term in the Bing search bar and hit **Enter**. Select an image by **clicking** on it. Then click **INSERT**.
 
     ![Find an image](images/tut/7.png)
 
-1. Watch what happens to the Explore pane:
+1. Watch what happens to the Designer pane:
 
     ![Image layout suggestions](images/tut/8.png)
 
-    The image is just sitting in the corner at first, but it suggests a whole bunch of interesting layouts that accentuate the text and the image. Go ahead and **Select** one of these layouts.
+    The image is just sitting in the middle of the slide at first, but it suggests a whole bunch of interesting layouts that accentuate the text and the image. Go ahead and **Select** one of these layouts.
 
     ![Select a layout](images/tut/9.png)
 
