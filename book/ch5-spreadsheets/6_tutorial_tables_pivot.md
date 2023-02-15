@@ -9,6 +9,8 @@ mathjax: true
 TUTORIAL 6 - Tables and Pivot Tables
 ====================================
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DBVwsqRIaNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 In an earlier tutorial, we looked at how you can take a range of data
 and make it into a table. Now, we are going to look at some advanced
 ways in which you can use those tables to make the data fit your needs.
