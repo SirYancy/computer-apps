@@ -1,8 +1,8 @@
 ---
 title: PowerPoint Tour
 layout: page
-parent: Chapter 3 - Presentation Software
-nav_order: 2
+parent: Chapter 4 - Presentation Software
+nav_order: 1
 ---
 
 Introduction
