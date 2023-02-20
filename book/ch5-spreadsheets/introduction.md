@@ -23,11 +23,6 @@ programming language in itself. Even with a basic understanding of
 tables, tabular data, and spreadsheet software you can make data entry
 and processing a far easier task and even impress potential employers.
 
-**Note:** As always, these tutorials and projects will primarily use
-screenshots from Word 2016. If you are working with Word 2013, and
-something doesn't look the same or work the same way, please inform the
-instructor.
-
 ## In This Chapter
 
 {:toc}
