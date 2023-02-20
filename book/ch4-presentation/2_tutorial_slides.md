@@ -8,6 +8,8 @@ nav_order: 2
 Tutorial - Creating and Building a Slide Show
 =============================================
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xJ3rPXAxqLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 In this tutorial, we are going to build a slideshow. This will be a little different than our tutorials so far in that it will be largely free-form. You are not necessarily going to build the exact same slideshow as presented here. Indeed, you should experiment with your own subject.
 
 Your first order of business is to think of an animal that you like. Take a moment.
