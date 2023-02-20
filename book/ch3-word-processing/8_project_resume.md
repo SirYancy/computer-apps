@@ -8,6 +8,8 @@ nav_order: 9
 Project 2 - Resume
 ==================
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qWDc2KI4S8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 [Example File](res/project_3.pdf)
 
 Discussion
