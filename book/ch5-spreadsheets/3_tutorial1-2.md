@@ -9,6 +9,8 @@ mathjax: true
 TUTORIAL 1.2 - Basic Formulas and Formatting
 ============================================
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l8_UM4qJyYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 We will be continuing our exploration of basic Excel tools. This
 tutorial continues our look at **We Got Widgets** and the order the Ned
 Flanders placed for a variety of high-quality, only vaguely defined,

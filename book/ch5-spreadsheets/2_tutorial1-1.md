@@ -8,6 +8,8 @@ nav_order: 3
 TUTORIAL 1.1 - Basic Formatting and Data Entry
 ==============================================
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j17615PAd5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 Let's get started with something really straightforward. For this
 scenario, imagine that you have started a web store where you sell
 widgets. The widgets come in all sorts of styles and designs and
