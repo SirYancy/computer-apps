@@ -8,8 +8,6 @@ nav_order: 6
 TUTORIAL 3 - References: Absolute and Relative
 ==============================================
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uQd7BHTgQTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 The **Fill Handle** is one of the most useful tools in any spreadsheet
 app. It has all sorts of different functions built in. For example, if
 you open a blank spreadsheet and put a **1** into any cell and then drag
@@ -119,7 +117,7 @@ We will build a times table which would normally be very tedious, but in
 this case will be quite straightforward.
 
 1.  Download the [start
-    file](res/tutorial_references_start.xlsx)
+    file](https://itech.erickuha.com/book/ch5-spreadsheets/res/tutorial_references_start.xlsx)
 2.  **Open** the file and you should be in the first sheet, the payroll
     sheet. All of the data is already here for you, so all you need to
     do is fill in all of the blanks. Let's just fill in the first row,
