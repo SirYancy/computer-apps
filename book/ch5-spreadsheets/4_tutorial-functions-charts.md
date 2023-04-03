@@ -8,6 +8,8 @@ nav_order: 7
 TUTORIAL 4 - Functions and Basic Charts
 =======================================
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IpAJoKH9kw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 It's not time to look at how we can visualize data. Let's create some
 charts!
 
