@@ -8,6 +8,8 @@ nav_order: 5
 TUTORIAL 2 - Formatting, Sorting, and Filtering Tables
 ======================================================
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W7psCoV1gjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 One of Excel's most important jobs is to make tabular data readable and
 presentable. Some of this will be review from the previous tutorials,
 and some of it will cover new tools and techniques for making tables
