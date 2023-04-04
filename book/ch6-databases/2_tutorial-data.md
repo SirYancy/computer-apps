@@ -8,6 +8,8 @@ nav_order: 4
 TUTORIAL 2 - Tables and Data
 ============================
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fzT7laTPLfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 We need to populate the database and its tables with actual data in
 order for this to be interesting. 
 
