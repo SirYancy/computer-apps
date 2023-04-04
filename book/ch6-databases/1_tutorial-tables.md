@@ -8,7 +8,7 @@ nav_order: 3
 TUTORIAL 1 - Tables
 ===================
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TqVRQRPfDL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L_GJ0Z7dKUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The first Access object we will explore is the table. The basic idea of
 a table persists across almost all database software and these concepts
