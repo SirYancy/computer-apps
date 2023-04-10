@@ -1,7 +1,7 @@
 ---
 title: Chapter 6 - Databases
 layout: page
-nav_order: 5
+nav_order: 6
 has_children: true
 permalink: /book/ch6-databases
 ---
