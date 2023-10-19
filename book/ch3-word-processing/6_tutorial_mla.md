@@ -152,11 +152,12 @@ about the correctness of Word's citations.
 
 12. Next, place the insertion point at the end of the paragraph that ends "...save significant amounts of money and time." Click *Insert Citation*. Fill in the form as follows:
 
-      | Type of Source   | Document From Web site      |
-      | Name of Web Page | Why Big Data is on the Rise |
-      | Name of Web Site | Foreign Affairs             |
-      | Year             | 2013                        |
-      | Year Accessed    | 2022                        |
+      | Type of Source   | Document From Web site                             |
+      | Name of Web Page | Why Big Data is on the Rise                        |
+      | Name of Web Site | Foreign Affairs                                    |
+      | Author           |  Kenneth Neil Cukier and Viktor Mayer-Schoenberger |
+      | Year             | 2013                                               |
+      | Year Accessed    | 2022                                               |
 
     We are going to omit the URL because it's easy to find and not required by the specification any more. Click OK and it will once again insert the parenthetical citation.
 
