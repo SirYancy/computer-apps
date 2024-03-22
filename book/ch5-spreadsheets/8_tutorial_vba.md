@@ -1,5 +1,5 @@
 --- 
-title: 'Tutorial 7 - Advanced Pivot Table Options'
+title: 'Tutorial 8 - Macros and Visual Basic'
 layout: page
 parent: Chapter 5 - Spreadsheets
 nav_order: 11
