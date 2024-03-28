@@ -20,6 +20,8 @@ Let's dig in.
 
 The video above will have you build a few macros and then tweak them in the VBA programming interface. Here's the breakdown of what you'll work through.
 
+Download the [Start File](res/macros_start.xlsx)
+
 * Macro 1 - Formatting
     1. A1 - Format as Title
     1. A3:C3 - Change background color and underline
